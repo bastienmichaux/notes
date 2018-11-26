@@ -1,6 +1,6 @@
 # Java - methods
 
-* method overloading: add methods with same name, with different parameters (extending capabilities)
+* method overloading: add method with same name, but with different parameters (extending capabilities)
 
 ```java
 public class A {
@@ -16,7 +16,7 @@ public class B extends A {
 }
 ```
 
-* method overriding is: you extend a class and rewrite a parent method so it has a different behavior
+* method overriding: extend a class & rewrite a parent method so it has a different behavior
 
 ```java
 public class A {
