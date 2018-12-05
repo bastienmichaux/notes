@@ -1,0 +1,25 @@
+aggravation-saver
+
+system-level test
+
+stakeholder >< shareholder
+
+equivalence class aka equivalence partition
+
+combinatorial testing
+
+test fixture: script or program used to put the system under test into a state that is ready for testing
+
+stochastic testing (aka monkey testing): use random processes that can be analyzed using statistics; eg: Netflix's ChaosMonkey. smart monkey testing: random input is what a user might conceivably enter. dumb monkey testing: unlikely input (for edge cases)
+
+fuzz testing: sending in randomly generated data to a system
+
+mutation testing: during the test, modify the code in random ways, thus seeding the system with defects, and see if the test suite is going to catch the defects.
+
+
+risks
+
+reliability (downtime)
+length of operations (lag)
+max number of concurrent users
+max number of registered users (db)

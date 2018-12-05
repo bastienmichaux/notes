@@ -1,0 +1,81 @@
+html elements:
+
+main root: html
+
+document metadata:
+-link
+-meta
+-style
+-title
+
+sectioning root: body
+
+content sectioning:
+-address
+-article -main -section
+-aside
+-footer -header
+-h1 .. h6
+-hgroup
+-nav
+
+text content:
+-blockquote
+-dl -dd -dt
+-div -span
+-figure -figcaption
+-hr
+-ol -ul -li
+-p
+-pre
+
+inline text semantics:
+-a
+-abbr
+-b -em -i -mark -strong -u
+-bdi -bdo
+-br -wbr
+-cite -dfn -q
+-code -data
+-kbd
+-s
+-small -sub -sup -var
+-span
+-time
+-demarcating edits: -del -ins
+
+image and multimedia:
+-area -map
+-audio -video -track
+-img
+
+embedded content:
+-embed
+-iframe
+-object -param
+-picture -source
+
+scripting:
+-canvas
+-noscript
+-script
+
+table content:
+-table
+-caption
+-thead -tbody -tfoot -col -colgroup -th
+-td -th -tr
+
+forms:
+-form
+-input -meter -textarea
+-button
+-fieldset -label -progress -output
+-select -datalist -optgroup -option
+
+interactive elements:
+-details -summary
+-dialog
+-menu -menuitem
+
+(web components)

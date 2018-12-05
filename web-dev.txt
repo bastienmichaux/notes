@@ -1,0 +1,8 @@
+web dev
+
+steps for developing websites
+-what is the website about?
+-design guide: make boilerplate pages
+-views: make rough sketches
+
+choose a file structure / project hierarchy

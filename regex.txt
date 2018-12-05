@@ -1,0 +1,17 @@
+regex
+
+javascript:
+const r = /pattern/i //regex
+
+'i' = modifier
+
+modifiers (there can 0 or more):
+-i : case-insensitive matching
+-g : global match
+-m : multiline matching
+
+/[abc]/ : find 'abc'
+/[^abc]/ : find everything not 'abc'
+/[0-9]/ : find any character between the brackets
+/[^0-9]/ : find any non-digit
+/(x|y)/ : find x or y

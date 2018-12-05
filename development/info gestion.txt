@@ -1,0 +1,48 @@
+description des ordinateurs
+
+mathématiques
+statistiques
+
+économie et management: organisation et gestion des entreprises
+économie de l'entreprise
+comptabilité
+économie appliquée
+
+initiation au droit informatique
+éthique et déontologie
+
+expression écrite et orale
+communication professionnelle
+
+culture technologique
+
+analyse métier
+analyse orientée objet
+gestion de projets
+
+principes de programmation
+langages de programmation
+principes de programmation orientée objet
+langages de programmation orienté objet
+programmation web
+projet informatique intégré
+programmation orientée objet avancée
+programmation web orientée objet
+développement d'applications web
+programmation et nouvelles technologies
+bases de données avancées et applications web
+environnements de développements de logiciels
+programmation mobile
+
+modélisation et traitement des données
+organisation et exploitation des données
+conception de bases de données
+langage d'exploitation de bases de données
+traitement des données
+traitement numérique des données
+
+systèmes d'exploitation et réseaux
+systèmes d'exploitation et réseaux avancés
+
+data science and business intelligence
+recherche opérationnelle

@@ -1,0 +1,73 @@
+Html elements
+
+root & metadata:
+-html
+-link
+-meta
+-style
+-title
+
+content:
+-body
+-article -section -main
+-header -footer
+-nav
+-h1 ... -h6 -hgroup -address
+
+text content:
+-p
+-div -hr
+-dd -dl -dt
+-ul -ol -li
+-pre
+-blockquote
+-figcaption -figure
+
+inline text:
+-a
+-abbr -dfn
+-b -em -i -mark -strong
+-bdi -bdo
+-br -wbr
+-cite -q
+-code -data -kbd -samp -var
+-s -del -ins
+-small
+-span
+-sub -sup
+-time
+
+image & multimedia:
+-area -map
+-audio -video -track
+-img
+
+embedded content:
+-embed
+-iframe
+-object -param
+-picture -source
+
+scripting:
+-canvas
+-script -noscript
+
+table content:
+-table -caption
+-colgroup -col
+-thead -tfoot
+-tbody -tr -td
+
+forms:
+-form -fieldset -legend
+-button
+-input -label -textarea
+-select -optgroup -datalist -option
+-meter -output -progress
+
+interactive elements:
+-details
+-dialog
+-menu
+-menuitem
+-summary

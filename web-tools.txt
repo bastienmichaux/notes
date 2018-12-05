@@ -1,0 +1,10 @@
+web tools
+
+basics:
+-text editor (master shortcuts)
+-automated browser testing (selenium?)
+-graphics editor (gimp, paint.net, ?)
+-terminal
+-git
+-ftp program (git can replace cyberduck, fetch or filezilla)
+-automation system (gulp, grunt, ?)
