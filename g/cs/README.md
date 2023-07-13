@@ -6,29 +6,29 @@
 
 ### Algorithm
 
-An algorithm is a step-by-step set of instructions that tells a computer how to solve a problem or accomplish a task. They can be thought as problem-solving "recipes".
+An algorithm is a step-by-step set of instructions that tells a computer how to solve a problem or accomplish a task. They can be thought of as problem-solving "recipes".
 
-An algorithm takes inputs (usually named "parameters" or "arguments") and produces an output: `return` a value or data structure.
+An algorithm takes inputs (usually named "parameters" or "arguments") and produces an output: it `return` a value or data structure.
 
 An algorithm should be:
-- clear and unambigous: each step must be well-defined and leave no room for interpretation
-- finite: it must terminate after a finite number of steps
-- deterministic: the steps are executed in a specific order, ensuring that the same inputs will always produce the same outputs
-- effective: it can be executed using finite resources within a reasonable amount of time, effectiveness is described using [asymptotic notation](#asymptotic-notation), the time taken is called [runtime](#runtime)
-- specific: it should solve a specific problem or perform specific tasks efficiently and correctly
+- **clear and unambigous:** each step must be well-defined and leave no room for interpretation
+- **finite:** it must terminate after a finite number of steps
+- **deterministic:** the steps are executed in a specific order, ensuring that the same inputs will always produce the same outputs
+- **effective:** it can be executed using finite resources within a reasonable amount of time, effectiveness is described using [asymptotic notation](#asymptotic-notation), the time taken is called [runtime](#runtime)
+- **specific:** it should solve a specific problem or perform specific tasks efficiently and correctly
 
 
 ### Data Structure 
 
 A data structure is a way of organizing data for efficient use. Some common data structures include:
-- array
-- linked list
-- stack
-- queue
-- hash table
-- tree
-- heap
-- graph
+- [array](#array)
+- [linked list](#linked-list)
+- [stack](#stack)
+- [queue](#queue)
+- [hash table](#hash-table)
+- [tree](#tree)
+- [heap](#heap)
+- [graph](#graph)
 
 Data structures are also known as collections.
 
@@ -82,14 +82,13 @@ There are several different tree data structures:
 
 #### Heap
 
-A heap is a tree-based data structure that has the properties of a complete binary tree, but while a tree is ordered, the heap is not. 
+A heap is a tree-based data structure that has the properties of a complete binary tree, but while a tree is ordered, the heap is not.
 
 There are two kinds of heaps:
 - min heap
 - max heap
 
-Sources:
-- https://www.baeldung.com/cs/heap-vs-binary-search-tree
+Source: [baeldung.com](https://www.baeldung.com/cs/heap-vs-binary-search-tree)
 
 #### Graph
 
@@ -109,7 +108,7 @@ There are several different graph data structures:
 
 ### Asymptotic Notation
 
-Asymptotic measures the efficiency of an algorithm.
+Asymptotic notation measures the efficiency of an algorithm.
 
 Efficiency depends mostly on:
 - time space: amount of time necessary
@@ -118,9 +117,9 @@ Efficiency depends mostly on:
 An algorithm may not have the same performance for different types of inputs.
 
 There are 3 types of asymptotic notations:
-- Big O: worst case scenario
-- Big Theta: exact bound, or exact growth rate
-- Big Omega: lower bound, or best case scenario
+- **Big O:** worst case scenario
+- **Big Theta:** exact bound, or exact growth rate
+- **Big Omega:** lower bound, or best case scenario
 
 #### Asymptotic analysis
 
@@ -128,19 +127,15 @@ Asymptotic analysis is the study of how the efficiency of an algorithm changes w
 
 #### Big O Notation
 
-Big O Notation describes the worst case scenario or upper bound of a function. It's the opposite of Big Omega.
-
-It describes how well an algorithm scales with its input size.
-
-Big O is used to compare algorithms and which one is better for a task.
+Big O Notation describes the worst case scenario or upper bound of a function. Its opposite is Big Omega. It describes how well an algorithm scales with its input size. Big O is used to compare algorithms and decide which one is better for a task.
 
 #### Big Theta Notation
 
-Exact bound, or exact growth rate of a function.
+Big Theta Notation is the exact bound, or exact growth rate of a function. It gives us an idea of the fundamental growth rate of the algorithm.
 
 #### Big Omega Notation
 
-Big Omega Notation describes the lower bound of a function, so the best case scenario. It's the opposite of Big O.
+Big Omega Notation describes the lower bound of a function, so the best case scenario. Its opposite is Big O.
 
 ### Runtime
 
