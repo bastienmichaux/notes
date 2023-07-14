@@ -42,4 +42,6 @@ Here are some common algorithms that you should know:
 ## Substring Search Algorithms
 ## Suffix arrays Algorithms
 ## Dynamic Programming
+
+Parsing algorithms: https://en.wikipedia.org/wiki/Category:Parsing_algorithms
 -->
