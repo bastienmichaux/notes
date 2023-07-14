@@ -5,8 +5,8 @@
 **Note:** This section is freely inspired from the [Computer Science Roadmap](https://roadmap.sh/computer-science) from [roadmap.sh](https://roadmap.sh).
 
 **Table of contents:**
-- [Algorithms](cs.algorithm.md)
-- [Data structures](cs.ds.md):
-  - [Tree](cs.tree.md)
-  - [Graph](cs.graph.md)
-- [Asymptotic notation](cs.asymptotic-notation.md)
+- [Algorithms](./algorithm.md)
+- [Data structures](./ds.md):
+  - [Tree](./tree.md)
+  - [Graph](./graph.md)
+- [Asymptotic notation](./asymptotic-notation.md)

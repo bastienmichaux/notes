@@ -2,7 +2,7 @@
 
 # Computer Science: Tree
 
-A tree is a hierarchical, non-linear [data structure](cs.ds.md) made of nodes. A "parent" node points to "children" nodes. 
+A tree is a hierarchical, non-linear [data structure](./ds.md) made of nodes. A "parent" node points to "children" nodes. 
 
 A **node** is just another name for a data structure element. The name comes from real-life nets (such as fishing nets), which are made of connected elements (fibers). A network is a set of connected nodes.
 

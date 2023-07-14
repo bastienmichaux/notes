@@ -12,6 +12,7 @@ Personal notes edited for the FOSS community.
 - [Cyber Security](g/cybersec/README.md)
 - Quality Assurance & Testing
 
+
 ## Languages
 
 - C++
@@ -21,10 +22,12 @@ Personal notes edited for the FOSS community.
 - Rust
 - TypeScript
 
+
 ## Frameworks
 
 - Angular
 - React
+
 
 ## Tools
 

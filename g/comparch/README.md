@@ -1,8 +1,8 @@
 # Computers & Computer Architecture
 
 Computers:
-- [Computer hardware overview](./comparch.hardware.md)
-- [CPU](./comparch.cpu.md)
-- [Memory (RAM)](./comparch.memory.md)
+- [Computer hardware overview](./hardware.md)
+- [CPU](./cpu.md)
+- [Memory (RAM)](./memory.md)
 - Motherboard
-- Input/output (IO)
+- Input/output devices (IO)
