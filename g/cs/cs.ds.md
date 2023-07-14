@@ -14,6 +14,12 @@ A data structure is a way of organizing data for efficient use. Some common data
 
 Data structures are also known as collections.
 
+When you implement a data structure, care for:
+- **correctness:** implement the interface correctly
+- **time complexity:** time length of operations should be as small as possible
+- **space complexity:** memory usage should be as small as possible
+
+
 ### Array
 
 Data structure where elements are stored in contiguous memory locations. Each array element has an index. Advantages: easily calculable addresses, faster access to elements when the index is known.
