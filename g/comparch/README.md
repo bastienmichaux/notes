@@ -2,7 +2,7 @@
 
 Computers:
 - [Computer hardware overview](./comparch.hardware.md)
-- CPU
-- Memory: RAM - ROM
+- [CPU](./comparch.cpu.md)
+- [Memory (RAM)](./comparch.memory.md)
 - Motherboard
 - Input/output (IO)
