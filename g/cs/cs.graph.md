@@ -12,9 +12,9 @@ There are several different graph data structures:
 - [directed graph](#directed-graph)
 - [undirected graph](#undirected-graph)
 - [spanning tree](#spanning-tree)
-- [representing graphs](#representing-graphs)
-<!-- TODO: - adjacency matrix -->
-<!-- TODO: - adjacency list -->
+- [representing graphs](#representing-graphs):
+  - [adjacency matrix](#adjacency-matrix)
+  - [adjacency list](#adjacency-list)
 
 
 ## Directed Graph
@@ -54,16 +54,16 @@ Resources:
 
 A graph can either be represented as an adjacency matrix or an adjacency list.
 
-**Adjacency Matrix**
+### Adjacency Matrix
 
 The adjacency matrix is a 2D array of size `V x V` where `V` is the number of vertices in a graph. Let the 2D array be `adj[][]`, a slot `adj[i][j] = 1` indicates that there is an edge from vertex `i` to vertex `j`.
 
-Resource:
-- [programiz.com](https://www.programiz.com/dsa/graph-adjacency-matrix)
+Resource: [programiz.com](https://www.programiz.com/dsa/graph-adjacency-matrix)
+
+### Adjacency list
 
 An adjacency list is an array of vectors. The size of the array is equal to the number of vertices. Let the array be `array[]`. An entry `array[i]` represents the list of vertices adjacent to the `i`th vertex. This representation can also be used to represent a weighted graph. The weights of edges can be represented as lists of pairs.
 
 Adjacency List - Graph Representation
 
-Resource:
-- [programiz.com](https://www.programiz.com/dsa/graph-adjacency-list)
+Resource: [programiz.com](https://www.programiz.com/dsa/graph-adjacency-list)
