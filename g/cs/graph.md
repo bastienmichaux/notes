@@ -2,7 +2,7 @@
 
 # Computer Science: Graph
 
-A graph is a non-linear [data structure](cs.ds.md) made up of a finite number of nodes (or vertices) and the edges that connect them.
+A graph is a non-linear [data structure](./ds.md) made up of a finite number of nodes (or vertices) and the edges that connect them.
 
 Graphs are also called networks, since they're used to model real-life networks.
 
@@ -54,11 +54,13 @@ Resources:
 
 A graph can either be represented as an adjacency matrix or an adjacency list.
 
+
 ### Adjacency Matrix
 
 The adjacency matrix is a 2D array of size `V x V` where `V` is the number of vertices in a graph. Let the 2D array be `adj[][]`, a slot `adj[i][j] = 1` indicates that there is an edge from vertex `i` to vertex `j`.
 
 Resource: [programiz.com](https://www.programiz.com/dsa/graph-adjacency-matrix)
+
 
 ### Adjacency list
 

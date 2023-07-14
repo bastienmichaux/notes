@@ -1,6 +1,6 @@
 [Home](../../README.md) > [Computer Science](./README.md)
 
-# Computer Science: Asymptotic Notation
+# Asymptotic Notation
 
 Asymptotic notation measures the efficiency of an algorithm. There are 3 types of asymptotic notations:
 - **Big O:** worst case scenario
