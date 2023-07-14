@@ -54,13 +54,7 @@ A tree is a hierarchical, non-linear data structure made of nodes. A "parent" no
 
 A well-known tree structure is HTML pages: the top-most node is the `<html>` element, the `<head>` and `<body>` elements are its direct children nodes.
 
-There are several different tree data structures:
-- binary tree
-- binary search tree
-- full binary tree
-- complete binary tree
-- balanced tree
-- unbalanced tree
+More on trees on our [dedicated page](cs.tree.md).
 
 ### Heap
 
@@ -80,9 +74,4 @@ We can think of graphs as polygons: a cube is a polygon made of 8 vertices (the 
 
 Graphs are useful to represent networks: telephone networks, circuit networks, social networks, etc.
 
-There are several different graph data structures:
-- directed graph
-- undirected graph
-- spanning tree
-- adjacency matrix
-- adjacency list
+More on graphs on [our dedicated page](cs.graph.md).
