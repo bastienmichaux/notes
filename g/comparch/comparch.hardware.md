@@ -76,3 +76,7 @@ Key Points:
 
 ## Resources
 - [What does what in your computer? Computer parts Explained](https://www.youtube.com/watch?v=ExxFxD4OSZ0)
+
+
+## Reference
+- https://roadmap.sh/cyber-security
