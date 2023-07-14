@@ -29,6 +29,8 @@ Personal notes edited for the FOSS community.
 ## Tools
 
 - Bash
+- Configuration tools: [TOML](tools/toml.md)
 - Docker
+- Documentation tools: [Markdown](tools/markdown.md)
 - Editors: [editorconfig](tools/editorconfig.md)
 - Kubernetes
