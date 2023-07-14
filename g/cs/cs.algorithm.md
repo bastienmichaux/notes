@@ -16,3 +16,30 @@ An algorithm should be:
 - **specific:** it should solve a single, specific problem, so that when solving larger problems we can re-use existing algorithms
 
 Algorithms get their name from the 9th-century Persian polymath [Al-Khwarizmi](https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi).
+
+Here are some common algorithms that you should know:
+- Sorting
+- Recursion
+- Searching
+- Cache
+- Tree
+- Graph
+- Greedy
+- Backtracking
+- Substring Search
+- Suffix arrays
+- Dynamic programming
+
+<!-- 
+## Sorting Algorithms
+## Recursion Algorithms
+## Searching Algorithms
+## Cache Algorithms
+## Tree Algorithms
+## Graph Algorithms
+## Greedy Algorithms
+## Backtracking Algorithms
+## Substring Search Algorithms
+## Suffix arrays Algorithms
+## Dynamic Programming
+-->

@@ -4,17 +4,17 @@
 
 A tree is a hierarchical, non-linear [data structure](cs.ds.md) made of nodes. A "parent" node points to "children" nodes. 
 
-A node is just another name for a data structure element.
+A **node** is just another name for a data structure element. The name comes from real-life nets (such as fishing nets), which are made of connected elements (fibers). A network is a set of connected nodes.
 
 A tree can be divided in several **subtrees**.
 
 There are several kinds of tree data structures, they differ in the constraints they follow:
-- binary tree
-- binary search tree
-- full binary tree
-- complete binary tree
-- balanced tree
-- unbalanced tree
+- [binary tree](#binary-tree)
+- [binary search tree](#binary-search-tree)
+- [full binary tree](#full-binary-tree)
+- [complete binary tree](#complete-binary-tree)
+- [balanced tree](#balanced-tree)
+- [unbalanced tree](#unbalanced-tree)
 
 
 ## Binary Tree
@@ -26,7 +26,7 @@ A binary tree is not necessarily ordered or sorted. The nodes can be arranged in
 
 ## Binary Search Tree
 
-A binary search tree (BST) is a special kind of binary tree: they are ordered and sorted.
+A binary search tree (BST) is a special kind of binary tree: all nodes in a BST are ordered and sorted.
 
 A BST obeys the following constraints:
 - the left child contains a value smaller than the parent
