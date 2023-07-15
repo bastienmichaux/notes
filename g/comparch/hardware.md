@@ -38,7 +38,9 @@ Input/Output (IO) Devices, (mouse, keyboard, screen, etc) are used to interact w
 
 ## Graphics Processing Unit
 
-The Graphics Processing Unit (GPU) is responsible for rendering images, videos, and animations on the computer screen. Its main function is to handle and display graphics, making your visuals smooth and responsive. Important for graphics processing (gaming, video, image editing).
+The Graphics Processing Unit (GPU) is responsible for rendering images, videos, and animations on the computer screen. Its main function is to handle and display graphics, making your visuals smooth and responsive. They're important for graphics processing (gaming, video, image editing).
+
+GPUs are an example of co-processors: they're specialized processors companion to the CPU.
 
 
 ## Power Supply Unit
