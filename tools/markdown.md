@@ -8,10 +8,12 @@ This project uses [Github-flavored Markdown]() and that's the implementation I'm
 
 **Contents:**
 - [Core Markdown syntax](#core-markdown)
+- [Lists](#lists)
 - [Links](#links)
+- [Tables](#tables)
 - [Images](#images)
 - [Video](#video)
-- [Collapsible Section](#collapsible)
+- [Collapsible Section](#collapsible-section)
 - [Other](#other)
 - [Resources](#resources)
 - [References](#references)
@@ -24,44 +26,27 @@ This project uses [Github-flavored Markdown]() and that's the implementation I'm
 
 Valid HTML code is valid Markdown. So you can mix Markdown and HTML code in the same file.
 
-Add 1 blank line between blocks (headings, paragraphs, tables, medias, etc). A newline isn't enough to separate text blocks.
+To separate text blocks add 1 blank line.
 
 2 spaces at the end of a text line  
 = newline
 
-
-# h1
+# heading 1
 ## h2
 ### h3 (etc to h6)
-
 
 **bold text**
 
 *italic text*
 
-**_bold and italic_**
-
-
-Unordered list:
-- a
-- b
-
-Ordered list:
-1. a
-1. b
-
-Task list:
-- [x] done
-- [ ] not done yet
-
+**_bold and italic text_**
 
 > Quote
 >> Quotes can be nested
 
 `inline codeblock`
 
-
-Codeblock (you can use either tildes ~ or backticks `):
+Codeblock (use either tildes ~ or backticks `):
 
 ~~~javascript
 console.log("Hello, world");
@@ -73,18 +58,23 @@ Emoji :joy:
 
 horizontal line or <hr>:
 ---
+```
 
 
-With tables, use colons (:) to align text.
-:--: = centered
----: = right align
-:--- = left align (default)
+## Lists
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+```markdown
+Unordered list:
+- a
+- b
+
+Ordered list:
+1. a
+1. b
+
+Task list:
+- [x] done
+- [ ] not done yet
 ```
 
 
@@ -112,6 +102,22 @@ Links can also be used for footnotes:
 $TODO: use case for literal links?
 This is a [literal link]
 [literal link]: http://url.com
+```
+
+
+## Tables
+
+```markdown
+With tables, use colons (:) to align text.
+:--: = centered
+---: = right align
+:--- = left align (default)
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 ```
 
 
