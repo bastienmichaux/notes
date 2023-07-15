@@ -43,7 +43,7 @@ The Graphics Processing Unit (GPU) is responsible for rendering images, videos, 
 
 ## Power Supply Unit
 
-The power supply unit (PSU) provides the necessary power to all components in the computer. It converts AC power to the DC power that the computer’s components require.
+The power supply unit (PSU) provides the necessary power to all components in the computer. It converts domestic AC power to the DC power that the computer’s components require.
 
 
 ## Resources
