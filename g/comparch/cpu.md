@@ -26,3 +26,6 @@ See:
 - [Registers and RAM (yt)](https://youtu.be/fpnE6UAfbtU)
 - [The Central Processing Unit (CPU) (yt)](https://youtu.be/FZGugFqdr60)
 - [Instructions and Programs (yt)](https://youtu.be/zltgXvg6r3k)
+
+Fun:
+- [I made a 32-bit computer inside Terraria (yt)](https://www.youtube.com/watch?v=zXPiqk0-zDY)
