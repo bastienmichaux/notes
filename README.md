@@ -36,4 +36,5 @@ Personal notes edited for the FOSS community.
 - Docker
 - Documentation tools: [Markdown](tools/markdown.md)
 - Editors: [editorconfig](tools/editorconfig.md)
+- Google: [Calendar](tools/google/calendar.md) - [Chrome](tools/google/chrome.md) [Search](tools/google/search.md)
 - Kubernetes
