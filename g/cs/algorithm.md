@@ -15,7 +15,7 @@ An algorithm should be:
 - **effective:** it can be executed using finite resources within a reasonable amount of time, effectiveness is described using [asymptotic notation](./asymptotic-notation.md), the time taken is called [runtime](./asymptotic-notation.md#runtime)
 - **specific:** it should solve a single, specific problem, so that when solving larger problems we can re-use existing algorithms
 
-Algorithms get their name from the 9th-century Persian polymath [Al-Khwarizmi](https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi).
+**Note:** Algorithms get their name from the 9th-century Persian polymath [Al-Khwarizmi](https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi).
 
 Here are some common algorithms that you should know:
 - Sorting
@@ -42,6 +42,10 @@ Here are some common algorithms that you should know:
 ## Substring Search Algorithms
 ## Suffix arrays Algorithms
 ## Dynamic Programming
-
-Parsing algorithms: https://en.wikipedia.org/wiki/Category:Parsing_algorithms
+## Parsing algorithms: https://en.wikipedia.org/wiki/Category:Parsing_algorithms
 -->
+
+## Resources
+- [Khan Academy: Algorithms course](https://www.khanacademy.org/computing/computer-science/algorithms)
+- [yt: Fireship: binary search algo in 100 sec](https://www.youtube.com/watch?v=MFhxShGxHWc)
+- [yt: FreeCodeCamp: binary search tree in JS](https://www.youtube.com/watch?v=5cU1ILGy6dM)
