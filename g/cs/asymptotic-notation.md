@@ -2,17 +2,21 @@
 
 # Asymptotic Notation
 
-Asymptotic notation measures the efficiency of an algorithm. There are 3 types of asymptotic notations:
-- **Big O:** worst case scenario
-- **Big Theta:** exact bound, or exact growth rate
-- **Big Omega:** lower bound, or best case scenario
+Asymptotic notation measures the efficiency of an algorithm. There are 3 types of it:
+- **Big O:** worst case scenario, or upper bound
+- **Big Theta:** exact growth rate, or exact bound 
+- **Big Omega:** best case scenario, or lower bound 
 
-An algorithm may not have the same performance for different types of inputs.
+As the input size increases, an algorithm may not have the same performance: its [runtime](#runtime) (time needed to execute) may become too long.
 
+**Asymptotic analysis:** is the study of how the efficiency of an algorithm changes with the size of its input(s).
 
-### Asymptotic analysis
-
-Asymptotic analysis is the study of how the efficiency of an algorithm changes with the size of its input(s).
+Resources:
+- [yt: Big Oh Notation (and Omega and Theta)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN&index=3)
+- [yt: Asymptotic Notation - CS50](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [yt: Big O Notation — Calculating Time Complexity](https://www.youtube.com/watch?v=Z0bH0cMY0E8)
+- [yt: Big O Notations](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [UCBerkeley webcast: CS 61B Lecture 19: Asymptotic Analysis](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 
 
 ### Big O Notation

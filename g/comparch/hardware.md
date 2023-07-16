@@ -2,7 +2,7 @@
 
 # Computer Hardware Components
 
-Hardware components are the physical parts that make up a computer system:
+Hardware components are the physical parts that make up a computer:
 1. [Motherboard](#motherboard)
 1. [Central Processing Unit (CPU)](#cpu)
 1. [Memory (RAM)](#memory)
@@ -16,7 +16,7 @@ Hardware components are the physical parts that make up a computer system:
 The motherboard is the main circuit board of the computer. It connects all other hardware components and allows components to communicate with each other. It provides a central hub for communication between the CPU, memory, and other hardware components.
 
 
-## CPU
+## [CPU](./cpu.md)
 
 The CPU serves as the heart and brain of a computer. It performs all the processing inside the computer and is responsible for executing programs, performing calculations, and managing the flow of data.
 

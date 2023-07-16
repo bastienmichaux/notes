@@ -24,3 +24,6 @@ The kernel sets up the system environment, initializes drivers for hardware peri
 The operating system continues to load various system components, such as device drivers, libraries, and services, into memory.
 
 Finally, the graphical user interface (GUI) or command-line interface (CLI) of the operating system is displayed, indicating that the boot process is complete, and the computer is ready for user interaction.
+
+Sources:
+- [How a computer works (yt)](https://www.youtube.com/watch?v=5f3NJnvnk7k)
