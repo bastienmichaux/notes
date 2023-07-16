@@ -1,4 +1,4 @@
-[Home](../../README.md) > [Computers & Computer Architecture](./README.md)
+[Home](../../README.md) > [Computer Architecture](./README.md)
 
 # Memory
 

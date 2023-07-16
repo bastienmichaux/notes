@@ -1,4 +1,4 @@
-[Home](../../README.md) > [Computers & Computer Architecture](./README.md)
+[Home](../../README.md) > [Computer Architecture](./README.md)
 
 # Computer Hardware Components
 
@@ -13,65 +13,39 @@ Hardware components are the physical parts that make up a computer system:
 
 ## Motherboard
 
-The motherboard is the main circuit board that connects all components of the computer. It provides a central hub for communication between the CPU, memory, and other hardware components.
-
-Key Points:
-- Connects all other hardware components.
-- Allows components to communicate with each other.
+The motherboard is the main circuit board of the computer. It connects all other hardware components and allows components to communicate with each other. It provides a central hub for communication between the CPU, memory, and other hardware components.
 
 
 ## CPU
 
-The CPU serves as the heart and brain of a computer. It performs all the processing inside the computer and is responsible for executing instructions, performing calculations, and managing the flow of data.
-
-Key Points:
-- Considered the “brain” of the computer.
-- Performs all the major processes and calculations.
+The CPU serves as the heart and brain of a computer. It performs all the processing inside the computer and is responsible for executing programs, performing calculations, and managing the flow of data.
 
 
 ## Memory
 
-Random Access Memory (RAM) is where data is temporarily stored while the computer is powered on. The data is constantly accessed, written, and rewritten by the CPU. The more RAM a system has, the more tasks it can process simultaneously.
-
-Key Points:
-- Temporary storage for data while the computer is on.
-- More RAM allows for better multitasking.
+Random Access Memory (RAM) is where data is temporarily stored while the computer is powered on (it's volatile memory). The data is constantly accessed, written, and rewritten by the CPU. The more RAM a system has, the more tasks it can process simultaneously. The RAM is cleared off when the computer is shut down.
 
 
 ## Storage
 
 Storage devices like hard disk drives (HDD) or solid-state drives (SSD) are used to store data permanently on the computer, even when the device is powered off. Operating systems, software, and user files are stored on these drives.
 
-Key Points:
-- Permanent storage for data.
-- Comes in HDD and SSD types, with SSDs being faster but more expensive.
-
 
 ## IO
 
-Input/ (IO) Devices, such as a mouse, keyboard, or scanner, are used to interact with and input data into the computer. Output devices, like the display monitor and speakers, present information and data in a format we can understand.
-
-Key Points:
-- Input devices allow users to interact with the computer.
-- Output devices present information to the user.
+Input/Output (IO) Devices, (mouse, keyboard, screen, etc) are used to interact with the computer. Input devices allow users to interact with the computer. Output devices present information to the user.
 
 
 ## Graphics Processing Unit
 
-The Graphics Processing Unit (GPU) is responsible for rendering images, videos, and animations on the computer screen. Its main function is to handle and display graphics, making your visuals smooth and responsive.
+The Graphics Processing Unit (GPU) is responsible for rendering images, videos, and animations on the computer screen. Its main function is to handle and display graphics, making your visuals smooth and responsive. They're important for graphics processing (gaming, video, image editing).
 
-Key Points:
-- Handles and processes graphics and visuals.
-- Important for gaming, video editing, and graphic design tasks.
+GPUs are an example of co-processors: they're specialized processors companion to the CPU.
 
 
 ## Power Supply Unit
 
-The power supply unit (PSU) provides the necessary power to all components in the computer. It converts the AC power from the wall socket into the DC power that the computer’s components require.
-
-Key Points:
-- Provides power to all computer components.
-- Converts AC power to DC power.
+The power supply unit (PSU) provides the necessary power to all components in the computer. It converts domestic AC power to the DC power that the computer’s components require.
 
 
 ## Resources
@@ -80,3 +54,4 @@ Key Points:
 
 ## Reference
 - https://roadmap.sh/cyber-security
+- https://roadmap.sh/computer-science
