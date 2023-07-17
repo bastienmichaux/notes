@@ -2,7 +2,7 @@
 
 # OSI Model
 
-The **Open Systems Interconnection (OSI) model** is a conceptual framework used to understand and describe how different network protocols interact. It divides networking functions into seven distinct, hierarchized layers:
+The **Open Systems Interconnection (OSI) model** is a conceptual framework used to understand and describe how different network protocols interact, enabling data transmission and communication. It divides networking functions into seven distinct, hierarchized layers:
 
 1. **Physical Layer**: Deals with the physical connection between devices, including cabling and hardware.
 1. **Data Link Layer**: Handles the communication between adjacent devices on the same network.
@@ -12,9 +12,9 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 1. **Presentation Layer**: Translates data into a format that is suitable for transmission between devices.
 1. **Application Layer**: Represents the user interface with which applications interact.
 
-The OSI model standardizes the functions of a telecommunication or computing system. It describes how networking protocols and technologies work together to enable data transmission and communication.
-
-**Note:** while the OSI model has 7 layers, the TCP/IP model has a more summarized form, consisting of only 4 layers.
+**Notes:**
+- While the OSI model has 7 layers, the TCP/IP model has a more summarized form, consisting of only 4 layers.
+- It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s.
 
 ## Physical Layer
 
@@ -69,3 +69,5 @@ The **Application layer** is the interface between the user and the communicatio
 - [Geeksforgeeks: Layers of OSI model](https://www.geeksforgeeks.org/layers-of-osi-model/)
 - [yt: RealPars: What is OSI Model?](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
 - [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
+- [yt: OSI Model](https://www.youtube.com/watch?v=dV8mjZd1OtU)
