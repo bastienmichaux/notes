@@ -36,13 +36,13 @@ The chipset is the motherboard's communications center and trafic controller. It
 
 ## Expansion slots
 
-Expansion slots are hardware slots or connectors situated on the motherboard. They allow to add various types of expansions cards or peripherals. They're used to add better components. Common expansion slots are ISA, PCI and USB expansion cards.
+Expansion slots are hardware slots or connectors situated on the motherboard. They allow to add various types of expansions cards or peripherals. They're used to add better components. Common expansion slots are USB, PCI and ISA expansion cards.
 
-**ISA:** Industry Standard Architecture. Industry standard in the 80s-90s now used to provide support for older and slower devices. Eg: older peripherals like an old joystick, mouse, printer, etc.
+**USB:** Universal Serial Bus.
 
 **PCI:** Peripheral Component Interconnect. Used for newer and faster devices than ISA. Allows more information, faster. Common PCI devices are the network card, EIDE devices (hard disk, CD/DVD drive).
 
-**USB:** Universal Serial Bus. Newer than PCI.
+**ISA:** Industry Standard Architecture. Industry standard in the 80s-90s now used to provide support for older and slower devices. Eg: older peripherals like an old joystick, mouse, printer, etc.
 
 **Note:** most laptops have no or very limited expansion slots due to their compact design. Instead, they feature integrated components which are not user-upgradeable. This limitation is due to space-saving considerations.
 
