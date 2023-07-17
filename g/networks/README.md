@@ -20,7 +20,8 @@ Computer networking is the practice of creating and administrating computer netw
 - [Server-Sent Events](./sse.md)
 
 **Resources:**
-- [TryHackMe: What is Computer Networking?](https://tryhackme.com/room/whatisnetworking)
+- [Amazon: What is Computer Networking?](https://aws.amazon.com/fr/what-is/computer-networking/)
 - [Khan Academy: Networking Course](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
+- [TryHackMe: What is Computer Networking?](https://tryhackme.com/room/whatisnetworking)
 - [yt: Computer Networking Course - Network Engineering](https://www.youtube.com/watch?v=qiQR5rTSshw)
 - [yt: Networking Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
