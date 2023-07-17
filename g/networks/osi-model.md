@@ -67,6 +67,5 @@ The **Application layer** is the interface between the user and the communicatio
 ## Resources
 - [Cloudflare: What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [Geeksforgeeks: Layers of OSI model](https://www.geeksforgeeks.org/layers-of-osi-model/)
-- [Geeksforgeeks: TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
 - [yt: What is OSI Model?](https://www.youtube.com/watch?v=Ilk7UXzV_Qc&ab_channel=RealPars)
-- [yt: TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
