@@ -40,7 +40,7 @@ The **HyperText Transfer Protocol (HTTP)** is the TCP/IP-based application layer
 Resources:
 - [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
 - [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [mozilla.org: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [Mozilla Developer Network: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 - [smashingmagazine: HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
 - [yt: HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
 - [yt: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)

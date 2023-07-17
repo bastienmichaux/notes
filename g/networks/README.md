@@ -7,14 +7,17 @@ A computer network is a set of computers connected to exchange data, resources, 
 Computer networking is the practice of creating and administrating computer networks.
 
 **Content:**
+- [Fundamentals](./fundamentals.md)
 - [Networking devices](./device.md)
 - [Network types](./type.md)
 - [Protocols](./protocol.md)
 - [OSI model](./osi-model.md)
 - [IP addresses](./ip-address.md)
 
+<!-- TODO: move this and SSE to back-end technologies -->
 **The Web:**
 - [WebSockets](./websocket.md)
+- [Server-Sent Events](./sse.md)
 
 **Resources:**
 - [TryHackMe: What is Computer Networking?](https://tryhackme.com/room/whatisnetworking)
