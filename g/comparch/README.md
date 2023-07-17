@@ -2,22 +2,22 @@
 
 # Computers & Computer Architecture
 
-Computer: a device that can store logical programs and execute them.
+**Computer:** a device that can store logical programs and execute them.
 
-Computer architecture: how the hardware components of a computer are designed and connected to work together.
+**Computer architecture:** how the hardware components of a computer are designed and connected to work together.
 
-Basic knowledge (of memory in particular) is necessary to become an efficient programmer.
+To become an efficient programmer, it's helpful to understand how computers (memory in particular) work.
 
-Computers:
+Content:
 - [Computer hardware overview](./hardware.md)
-- [How computer work](./computer.md)
+- [How a computer works](./computer.md)
 - [CPU](./cpu.md)
 - [Memory (RAM)](./memory.md)
 - [Motherboard](./motherboard.md)
-- Input/output devices (IO)
+- [Input/output devices (IO)](./io.md)
 
 ## References
-- [markburgess.org (pdf)](http://markburgess.org/os/os.pdf)
+- [Mark Burgess: "A short introduction to operating systems" (pdf)](http://markburgess.org/os/os.pdf)
 - [Robert Power, Robert Ford: "Operating System Fundamentals" (pdf)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.464.682&rep=rep1&type=pdf)
-- [britannica.com](https://www.britannica.com/technology/computer)
-- [gcfglobal.org](https://edu.gcfglobal.org/en/computerbasics/inside-a-computer/1/)
+- [Britannica: computer](https://www.britannica.com/technology/computer)
+- [gcfglobal.org: inside a computer](https://edu.gcfglobal.org/en/computerbasics/inside-a-computer/1/)

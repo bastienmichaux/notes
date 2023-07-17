@@ -1,6 +1,8 @@
-# notes
+# 📚 notes
 
-Personal notes edited for the FOSS community.
+Personal documentation based on the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟
+
+Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 ## General notes
 
@@ -10,6 +12,7 @@ Personal notes edited for the FOSS community.
 - [Computer Science](g/cs/README.md)
 - Cryptography
 - [Cyber Security](g/cybersec/README.md)
+- [Operating Systems](g/os/README.md)
 - Quality Assurance & Testing
 
 
@@ -17,10 +20,10 @@ Personal notes edited for the FOSS community.
 
 - C++
 - Java
-- JavaScript
+- JavaScript - TypeScript
+- Go
 - Python
 - Rust
-- TypeScript
 
 
 ## Frameworks
