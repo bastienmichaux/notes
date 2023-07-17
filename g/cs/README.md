@@ -10,4 +10,8 @@
 - [Data structures](./ds.md):
   - [Tree](./tree.md)
   - [Graph](./graph.md)
+  - [Trie](./trie.md)
+  - [Balanced Search Tree](./bst.md): [Red-Black Tree](./bst.md#redblack-tree)
+  - [K-d Tree](./k-d-tree.md)
+  - [Skip List](./skip-list.md)
 - [Asymptotic notation](./asymptotic-notation.md)
