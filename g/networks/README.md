@@ -13,6 +13,7 @@ Computer networking is the practice of creating and administrating computer netw
 - [Network types](./type.md)
 - [OSI model](./osi-model.md)
 - [Protocols](./protocol.md)
+- [Email protocols and technologies](./email.md)
 - [Web Protocols](./web-protocol.md)
 - [IP addresses](./ip-address.md)
 
