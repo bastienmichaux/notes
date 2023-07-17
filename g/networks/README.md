@@ -13,6 +13,9 @@ Computer networking is the practice of creating and administrating computer netw
 - [OSI model](./osi-model.md)
 - [IP addresses](./ip-address.md)
 
+**The Web:**
+- [WebSockets](./websocket.md)
+
 **Resources:**
 - [TryHackMe: What is Computer Networking?](https://tryhackme.com/room/whatisnetworking)
 - [Khan Academy: Networking Course](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
