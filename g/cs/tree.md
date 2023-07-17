@@ -82,3 +82,12 @@ Resource: [Programiz](https://www.programiz.com/dsa/balanced-binary-tree)
 ## Unbalanced Tree
 
 An unbalanced binary tree is simply a tree that is not balanced.
+
+
+## K-d Tree
+
+K-D Trees are a data structure that allow for fast nearest neighbor search in high dimensional spaces. They are a generalization of binary search trees, and are used in a variety of applications, including computer vision and computational geometry.
+
+Resources:
+- [yt: K-D Tree Algorithm](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+- [Computerphile: K-d Trees](https://www.youtube.com/watch?v=BK5x7IUTIyU)
