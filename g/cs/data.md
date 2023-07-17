@@ -24,3 +24,12 @@ Computers only understand 0 and 1s, so computer science is built on representing
 Resources:
 - [Representation of Floating Point Numbers - 1](https://www.youtube.com/watch?v=ji3SfClm8TU)
 - [Why 0.1 + 0.2 != 0.3? | Floating Point Math](https://www.youtube.com/watch?v=RIiq4tTt6rI)
+
+## Bitwise operators
+
+Bitwise operators are used to perform operations on individual bits of a number. They are used in cryptography, image processing, and other applications.
+
+Resources:
+- [yt: Bit Manipulation](https://www.youtube.com/watch?v=7jkIUgLC29I)
+- [yt: Computerphile: Binary: Plusses & Minuses (Why We Use Twos Complement)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+- [yt: Algorithms: Bit Manipulation](https://www.youtube.com/watch?v=NLKQEOgBAnw)
