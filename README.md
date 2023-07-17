@@ -6,7 +6,7 @@ Personal notes edited for the FOSS community.
 
 - Cloud Computing
 - [Computer Architecture](g/comparch/README.md)
-- Computer Networks
+- [Computer Networks](g/networks/README.md)
 - [Computer Science](g/cs/README.md)
 - Cryptography
 - [Cyber Security](g/cybersec/README.md)
