@@ -2,27 +2,49 @@
 
 # Network Protocols
 
-Protocols are sets of rules that govern the communication between devices within a network. Some of the most common protocols include:
+Protocols are sets of rules and procedures that define how data should be transmitted, formatted, and processed. They govern communications between devices within a network.
+
+Regarding cyber security, understanding protocols is vital for identifying potential vulnerabilities and making informed decisions on network defense strategies.
+
+Some of the most common protocols include:
 
 **Internet protocols:**
-- **Transmission Control Protocol (TCP):** Ensures the reliable transmission of data and establishes connections between devices.
-- **Internet Protocol (IP):** Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.
-- **User Datagram Protocol (UDP):** A lightweight, fast, but less reliable protocol compared to TCP, often used for streaming and gaming applications.
-- **File Transfer Protocol (FTP):**
-- **Simple Mail Transfer Protocol (SMTP):**
+- **[Transmission Control Protocol (TCP)](#tcp):** Fundamental standard for transmitting data and establishing connections.
+- **[Internet Protocol (IP)](#ip):** Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.
+- **File Transfer Protocol (FTP):** Transfer files over a TCP network.
+- **[Simple Mail Transfer Protocol (SMTP)](./email.md#smtp):** Sends mail from a client to an email server.
 - **Dynamic Host Configuration Protocol (DHCP):**
 - **Network Time Protocol (NTP):**
 - **Transport Layer Security (TLS):** Cryptographic control of communication.
 - **SSH:**
 
-See also **[Web protocols](./web-protocols.md):**
+**[Web protocols](./web-protocol.md):**
 - **[HTTP](./web-protocols.md#http):** Client-server communication on the web.
 - **[DNS](./web-protocols.md#dns):** Translates IP addresses to human-readable domain names.
 - **[HTTPS](./web-protocols.md#https):** Secured HTTP protocol built on top of TLS
 
-## TCP/IP
+**Other protocols:**
+- **User Datagram Protocol (UDP):** Protocol often used for streaming and gaming applications. Faster and lighter than TCP, but less reliable.
+
+## Terminology
+
+### Stateless
+
+With a stateless protocol, each request and response pair is independent from the others, making it a fast and efficient way of transmitting data.
+
+HTTP is an example of stateless protocol.
+<!-- TODO: tell exactly why -->
+
+## TCP
+
+The **Transmission Control Protocol (TCP)** ensures the reliable transmission of data. It also establishes connections between devices.
+
+<!-- TODO: connection-oriented protocol -->
+This connection-oriented protocol ensures that data is delivered correctly between applications over a network. It ensures accurate and **complete** data delivery by establishing a connection, segmenting data into smaller packets, verifying the receipt of packets, and reordering packets to their original sequence.
+<!-- TODO: explain how -->
 
 Resources:
+- [Fortinet.com: What is TCP?](https://www.fortinet.com/resources/cyberglossary/tcp-ip)
 - [Geeksforgeeks: TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
 - [Wikipedia: TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 - [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
@@ -30,15 +52,17 @@ Resources:
 
 ## IP
 
-TODO
+**Internet Protocol (IP)** is a protocol that enables data exchange between computers over a network. Each device in the network has a unique **IP address**, enabling data packets to be sent correctly.
 
-## UDP
+<!-- TODO: Internet Protocol Suite -->
+IP is the primary protocol in the Internet Layer of the Internet Protocol Suite and has two main versions - IPv4 and IPv6.
 
-TODO
 
-## FTP
+## [FTP](./protocol.ftp.md)
 
-File Transfer Protocol(FTP) is a TCP/IP based application layer communication protocol that helps transferring files between local and remote file systems over the network. To transfer a file, 2 TCP connections(control connection and data connection) are used in parallel.
+**File Transfer Protocol (FTP)** is an application layer communication protocol for transferring files over a TCP-based network, such as the Internet.
+
+To transfer a file, two TCP connections (the control connection and data connection) are used in parallel.
 
 <!-- TODO: SFTP, FTPS -->
 
@@ -59,38 +83,37 @@ Resources:
 
 - [Wikipedia: NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol)
 
-## TLS
 
-**TLS (Transport Layer Security)** is a cryptographic protocol that provides privacy and data integrity between two communicating applications. It is widely used to secure HTTP, although it can be used with any protocol. By encrypting the packets, anyone who tries to intercept them will not be able to interpret the data.
+## [TLS](./protocol.tls.md)
 
-TLS is often used in combination with **HTTPS**, which is HTTP over TLS.
+**TLS (Transport Layer Security)** is the standard for securing web traffic. By encrypting the packets, anyone who tries to intercept them will not be able to interpret the data.
 
-<details id="ssl">
-<summary><b>About SSL: (click to reveal)</b></summary>
+It is widely used to secure HTTP, although it can be used with any protocol. **HTTPS** is HTTP over TLS.
 
-SSL (Secure Sockets Layer) is another encryption protocol now deprecated due to security flaws, and most modern web browsers no longer support it. But TLS is still secure and widely supported, so preferably use TLS.
+While articles and textbooks may often mention TLS/SSL, SSL is a security protocol that preceded TLS and is now deprecated.
 
-Resources:
-- [Cloudflare - What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
-</details>
 
-Resources:
-- [Cloudflare - What is TLS?](https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/)
-- [Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-- [yt: SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-- [yt: Cristina Formaini: SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-- [yt: SSH vs SSL vs TLS](https://www.youtube.com/watch?v=k3rFFLmQCuY)
-
-## SSH
+## [SSH](./protocol.ssh.md)
 
 <!-- telnet, rlogin -->
 The Secure Shell (SSH) is a network communication protocol that enables two computers to communicate over an insecure network. It is a secure alternative to the non-protected login protocols (such as telnet, rlogin) and insecure file transfer methods (such as FTP). It is mostly used for secure Remote Login and File Transfer.
 
 Note: SFTP = FTP + SSH
 
+
+## UDP
+
+<!-- TODO: connectionless, error checking, guarantee delivery, latency -->
+UDP, or User Datagram Protocol, is a connectionless communication protocol used for fast and efficient data transmission. Unlike TCP, UDP does not provide error checking or guarantee delivery, making it suitable for real-time applications like video streaming and online gaming where low latency is crucial.
+
+
+## SSL
+
+SSL (Secure Sockets Layer) is an encryption protocol now deprecated due to security flaws, and most modern web browsers no longer support it. It's the predecessor to TLS. TLS is still secure and widely supported, so preferably use TLS.
+
+SSL was developed by Netscape in the mid-1990s and has gone through several iterations. The last version, SSLv3, was released in 1996. In 1999 SSL was updated to become TLS. SSL was deprecated in 2015, and it is not recommended for use in modern applications.
+
+Like TLS, SSL creates an encrypted connection between a client (typically a web browser) and a server to ensure that any data transmitted remains private and secure. SSL uses a combination of symmetric and asymmetric encryption methods, as well as digital certificates, to establish and maintain secure communication.
+
 Resources:
-- [Wikipedia: SSH](https://en.wikipedia.org/wiki/Secure_Shell)
-- [Baeldung: SSH Intro](https://www.baeldung.com/cs/ssh-intro)
-- [ssh.com: What is SSH?](https://www.ssh.com/academy/ssh/protocol)
-- [GoAnywhere: SFTP using SSH](https://www.goanywhere.com/blog/how-sftp-works)
-- [yt: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
+- [Cloudflare - What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)

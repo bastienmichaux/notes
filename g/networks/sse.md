@@ -1,3 +1,5 @@
+[Home](../../README.md) > [Networks](./README.md)
+
 # Server Sent Events
 
 **Server-Sent Events (SSE)** is a technology that allows a web server to push data to a client in real-time. It uses an HTTP connection to send a stream of data from the server to the client, and the client can listen for these events and take action when they are received.
