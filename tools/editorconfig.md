@@ -7,7 +7,9 @@ A `.editorconfig` file sets formatting for most IDEs and text editors. It's a si
 <!-- TODO: write dotfile article -->
 A `.editorconfig` is an example of a dotfile.
 
-Example:
+**Official site:** https://editorconfig.org
+
+**Example:**
 ```bash
 # must be first line, makes .editorconfig the top-most conf
 root = true
@@ -18,7 +20,7 @@ indent_size = 4
 indent_style = space
 ```
 
-Config reference:
+**Config reference:**
 ```bash
 charset = utf-8 # or latin1, utf-8, utf-16be, utf-16le, utf-8-bom
 
@@ -37,7 +39,7 @@ insert_final_newline = true
 ```
 
 <!-- TODO: write wildcard article -->
-Wildcards:
+**Wildcards:**
 ```bash
 # everything
 [*] 
@@ -57,5 +59,3 @@ Wildcards:
 # target specific files
 [{package.json,.travis.yml}]
 ```
-
-Reference: https://editorconfig.org

@@ -60,7 +60,7 @@ For example, the number `-12.345` in base 10 would be computed as: `-1 * 12345 *
 
 A common standard for floating-point numbers is the **IEEE 754** standard, which is used by Python and JavaScript.
 
-Resources:
+**Resources:**
 - [Representation of Floating Point Numbers - 1](https://www.youtube.com/watch?v=ji3SfClm8TU)
 - [Why 0.1 + 0.2 != 0.3? | Floating Point Math](https://www.youtube.com/watch?v=RIiq4tTt6rI)
 
@@ -79,7 +79,7 @@ Programming languages usually implement 6 bitwise operators:
 - `<<` (left shift): shifts bits to the left by a specified number of places. `1 << 1 = 2`, `1 << 2 = 4`.
 - `>>` (right shift): shift the bits to the right. `4 << 1 = 2`, `4 << 2 = 1`.
 
-Resources:
+**Resources:**
 - [yt: Bit Manipulation](https://www.youtube.com/watch?v=7jkIUgLC29I)
 - [yt: Computerphile: Binary: Plusses & Minuses (Why We Use Twos Complement)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
 - [yt: Algorithms: Bit Manipulation](https://www.youtube.com/watch?v=NLKQEOgBAnw)

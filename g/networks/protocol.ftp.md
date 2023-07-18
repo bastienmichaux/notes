@@ -6,6 +6,11 @@
 
 FTP is a commonly used protocol but it has significant security vulnerabilities. It's essential to use more secure alternatives like **FTPS** or **[SFTP](./protocol.sftp.md)** for transferring sensitive data.
 
+**Resources:**
+- [Geeksforgeeks: What is FTP?](https://www.geeksforgeeks.org/file-transfer-protocol-ftp-in-application-layer/)
+- [Fortinet: FTP vs SFTP vs FTPS](https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning)
+- [Wikipedia: FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+
 
 ## How FTP Works
 

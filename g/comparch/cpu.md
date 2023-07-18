@@ -13,6 +13,15 @@ The CPU operates using a **fetch-decode-execute cycle**.
 
 Each CPU has an **instruction set**: the set of elementary operations (add, multiply, read value, read memory address, etc) they can execute.
 
+**Resources:**
+- [yt: How CPUs execute a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
+- [yt: How computers calculate - ALU](https://youtu.be/1I5ZMmrOfnA)
+- [yt: Registers and RAM](https://youtu.be/fpnE6UAfbtU)
+- [yt: The Central Processing Unit (CPU)](https://youtu.be/FZGugFqdr60)
+- [yt: Instructions and Programs](https://youtu.be/zltgXvg6r3k)
+- Fun: [yt: I made a 32-bit computer inside Terraria](https://www.youtube.com/watch?v=zXPiqk0-zDY)
+
+
 ## CPU parts
 
 The CPU is made of several components:
@@ -146,14 +155,3 @@ See:
 <!-- TODO: integrated circuit -->
 
 A microprocessor is an entire processor constructed as an integrated circuit on one single silicon chip (very large electrical circuit). Most computers today are microprocessor-based computer systems, or micro-computers.
-
-
-## Resources
-- [yt: How CPUs execute a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
-- [yt: How computers calculate - ALU](https://youtu.be/1I5ZMmrOfnA)
-- [yt: Registers and RAM](https://youtu.be/fpnE6UAfbtU)
-- [yt: The Central Processing Unit (CPU)](https://youtu.be/FZGugFqdr60)
-- [yt: Instructions and Programs](https://youtu.be/zltgXvg6r3k)
-
-Fun:
-- [yt: I made a 32-bit computer inside Terraria](https://www.youtube.com/watch?v=zXPiqk0-zDY)

@@ -23,7 +23,7 @@ A binary tree is a data structure where each node has at most two children: the 
 
 A binary tree is not necessarily ordered or sorted. The nodes can be arranged in any order without any specific rules or constraints. This makes them flexible, but less efficient than other the kinds of trees for specific problems.
 
-Resources:
+**Resources:**
 - [yt: Binary Trees - Part 1](https://www.youtube.com/watch?v=76dhtgZt38A&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=9)
 - [yt: Binary Trees - Part 2](https://www.youtube.com/watch?v=U1JYwHcFfso&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=10)
 
@@ -38,7 +38,7 @@ A BST obeys the following constraints:
 
 A BST is also known as an ordered tree or sorted binary tree.
 
-Resources:
+**Resources:**
 - [Coursera: Binary Search Trees - Coursera](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
 - [yt: Tree | Illustrated Data Structures](https://www.youtube.com/watch?v=S2W3SXGPVyU)
 - [yt: Binary Search Trees - MIT](https://www.youtube.com/watch?v=76dhtgZt38A)
@@ -56,7 +56,7 @@ For a tree to be a Full Binary Tree, each node must have either 0 or 2 two child
 
 It is also known as a proper binary tree.
 
-Resources:
+**Resources:**
 - [Programiz: Full Binary Tree](https://www.programiz.com/dsa/full-binary-tree)
 - [GeeksForGeeks: Types of Binary Tree](https://www.geeksforgeeks.org/types-of-binary-tree/)
 
@@ -67,7 +67,7 @@ A Complete Binary Tree (CBT) is a special type of Binary Tree where all the leve
 
 The difference between a Full Binary Tree and Complete Binary Tree lies in the ordering of the children, and that all levels are filled. A Full Bianry Tree is always complete, while a Complete Binary Tree may not necessarily be full, as the last level may not be completely filled.
 
-Resources:
+**Resources:**
 - [Geeks for Geeks: Complete Binary Tree](https://www.geeksforgeeks.org/complete-binary-tree)
 - [Programiz: Complete Binary Tree](https://www.programiz.com/dsa/complete-binary-tree)
 
@@ -76,7 +76,8 @@ Resources:
 
 For a tree to be a Balanced Tree, the difference between the left and right subtree of any node must differ by not more than 1.
 
-Resource: [Programiz](https://www.programiz.com/dsa/balanced-binary-tree)
+**Resources:**
+- [Programiz](https://www.programiz.com/dsa/balanced-binary-tree)
 
 
 ## Unbalanced Tree
@@ -88,6 +89,6 @@ An unbalanced binary tree is simply a tree that is not balanced.
 
 K-D Trees are a data structure that allow for fast nearest neighbor search in high dimensional spaces. They are a generalization of binary search trees, and are used in a variety of applications, including computer vision and computational geometry.
 
-Resources:
+**Resources:**
 - [yt: K-D Tree Algorithm](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 - [Computerphile: K-d Trees](https://www.youtube.com/watch?v=BK5x7IUTIyU)

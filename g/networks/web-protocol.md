@@ -1,3 +1,5 @@
+[Home](../../README.md) > [Networks](./README.md)
+
 # Web Protocols
 
 The World Wide Web is an application that uses the Internet as an infrastructure. It has its own set of protocols:
@@ -6,13 +8,14 @@ The World Wide Web is an application that uses the Internet as an infrastructure
 - **HTTPS:** a more secured version of HTTP.
 - **CORS:** an HTTP-based security mechanism.
 
+
 ## DNS
 
 The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember names instead of numerical IP addresses.
 
 Domain names like `google.com` are human-readable and can be memorized. DNS translates domain names to IP addresses. This process is called domain name resolution.
 
-Resources:
+**Resources:**
 - [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
 - [How DNS works (comic)](https://howdns.works/)
 - [Wikipedia: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
@@ -39,7 +42,7 @@ When browsing the internet, always look for the padlock icon in the address bar,
 
 As a website owner or developer, it's crucial to prioritize implementing HTTPS, to provide a secure and trustworthy experience for your users.
 
-Resources:
+**Resources:**
 - [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
 - [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 - [Mozilla: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
@@ -71,7 +74,7 @@ The handshake phase uses a particular kind of cryptography, called **asymmetric 
 <!-- TODO: link to crypto -->
 After the handshake phase the HTTPS communication is encrypted with **symmetric cryptography**, which is much more efficient but requires client and server to both have knowledge of the secret key.
 
-Resources:
+**Resources:**
 - [CloudFlare: What is HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
 - [Google: Why HTTPS Matters](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
 - [Google: Enabling HTTPS on Your Servers](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
@@ -81,12 +84,13 @@ Resources:
 - [yt: SSL, TLS, HTTP, HTTPS Explained](https://www.youtube.com/watch?v=hExRDVZHhig)
 - [yt: HTTPS — Stories from the field](https://www.youtube.com/watch?v=GoXgl9r0Kjk)
 
+
 ## CORS
 
 <!-- TODO: HTTP header -->
 **Cross-Origin Resource Sharing (CORS)** is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
-Resources:
+**Resources:**
 - [Mozilla: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [yt: CORS in 100 Seconds](https://www.youtube.com/watch?v=4KHiSt0oLJ0)
 - [yt: CORS in 6 minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)

@@ -11,12 +11,12 @@ Some of the most common protocols include:
 **Internet protocols:**
 - **[Transmission Control Protocol (TCP)](#tcp):** Fundamental standard for transmitting data and establishing connections.
 - **[Internet Protocol (IP)](#ip):** Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.
-- **File Transfer Protocol (FTP):** Transfer files over a TCP network.
+- **[File Transfer Protocol (FTP)](#ftp):** Transfer files over a TCP network.
 - **[Simple Mail Transfer Protocol (SMTP)](./email.md#smtp):** Sends mail from a client to an email server.
-- **Dynamic Host Configuration Protocol (DHCP):**
-- **Network Time Protocol (NTP):**
-- **Transport Layer Security (TLS):** Cryptographic control of communication.
-- **SSH:**
+- **[Dynamic Host Configuration Protocol (DHCP)](#dhcp):**
+- **[Network Time Protocol (NTP)](#ntp):**
+- **[Transport Layer Security (TLS)](#tls):** Cryptographic control of communication. Replaced [SSL](#ssl).
+- **[SSH](#ssh):**
 
 **[Web protocols](./web-protocol.md):**
 - **[HTTP](./web-protocols.md#http):** Client-server communication on the web.
@@ -24,7 +24,7 @@ Some of the most common protocols include:
 - **[HTTPS](./web-protocols.md#https):** Secured HTTP protocol built on top of TLS
 
 **Other protocols:**
-- **User Datagram Protocol (UDP):** Protocol often used for streaming and gaming applications. Faster and lighter than TCP, but less reliable.
+- **[User Datagram Protocol (UDP)](#udp):** Protocol often used for streaming and gaming applications. Faster and lighter than TCP, but less reliable.
 
 ## Terminology
 
@@ -66,14 +66,6 @@ To transfer a file, two TCP connections (the control connection and data connect
 
 <!-- TODO: SFTP, FTPS -->
 
-Resources:
-- [Geeksforgeeks: What is FTP?](https://www.geeksforgeeks.org/file-transfer-protocol-ftp-in-application-layer/)
-- [Fortinet: FTP vs SFTP vs FTPS](https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning)
-- [Wikipedia: FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
-
-## SMTP
-
-- [Wikipedia: SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
 
 ## DHCP
 
@@ -115,5 +107,5 @@ SSL was developed by Netscape in the mid-1990s and has gone through several iter
 
 Like TLS, SSL creates an encrypted connection between a client (typically a web browser) and a server to ensure that any data transmitted remains private and secure. SSL uses a combination of symmetric and asymmetric encryption methods, as well as digital certificates, to establish and maintain secure communication.
 
-Resources:
+**Resources:**
 - [Cloudflare - What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)

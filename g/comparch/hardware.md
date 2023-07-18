@@ -10,6 +10,9 @@ Hardware components are the physical parts that make up a computer:
 1. [Input/Output Devices](#io)
 1. [Graphics Processing Unit (GPU)](#graphics-processing-unit)
 
+**Resources:**
+- [yt: What does what in your computer? Computer parts Explained](https://www.youtube.com/watch?v=ExxFxD4OSZ0)
+
 
 ## [Motherboard](./motherboard.md)
 
@@ -50,7 +53,3 @@ Note: GPUs are an example of co-processors: they're specialized processors compa
 ## Power Supply Unit
 
 The Power Supply Unit (PSU) provides the necessary power to all components in the computer. It converts domestic AC power to the DC power that the computer’s components require.
-
-
-## Resources
-- [YouTube: What does what in your computer? Computer parts Explained](https://www.youtube.com/watch?v=ExxFxD4OSZ0)

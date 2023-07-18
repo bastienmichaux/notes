@@ -45,7 +45,8 @@ Here are some common algorithms that you should know:
 ## Parsing algorithms: https://en.wikipedia.org/wiki/Category:Parsing_algorithms
 -->
 
-## Resources
+
+**Resources:**
 - [Khan Academy: Algorithms course](https://www.khanacademy.org/computing/computer-science/algorithms)
 - [yt: Fireship: binary search algo in 100 sec](https://www.youtube.com/watch?v=MFhxShGxHWc)
 - [yt: FreeCodeCamp: binary search tree in JS](https://www.youtube.com/watch?v=5cU1ILGy6dM)

@@ -2,11 +2,13 @@
 
 Ring topology is a type of network configuration where each device is connected to two other devices, forming a circular layout or ring. In this topology, data packets travel from one device to another in a unidirectional manner until they reach the intended recipient or return to the sender, indicating that the recipient was not found in the network.
 
+
 ## Advantages of Ring Topology
 
 - **Easy to Install and Configure:** Ring topology is relatively simpler to set up and maintain as it involves connecting each device to the two adjacent devices only.
 - **Predictable Data Transfer Time:** As data packets move in a circular pattern, it becomes easier to predict the maximum time required for a packet to reach its destination.
 - **Minimal Network Congestion:** The unidirectional flow of packets can significantly reduce the chances of network congestion, as the collision of data packets is less likely.
+
 
 ## Disadvantages of Ring Topology
 

@@ -2,71 +2,71 @@
 
 # Google Search
 
-Get the most out of your Google searches.
+Some tips to get the most out of your Google searches.
 
 ## Filter / refine search
 
 Match exact word/sentence: use quotes:
-- "computer architecture"
+> "computer architecture"
 
 Exclude word:
-- dolphins -football
+> dolphins -football
 
 Search only within a specific site:
-- php site:reddit.com
+> php site:reddit.com
 
 Logical OR:
-- blouse|shirt|chemise
-- blouse OR shirt OR chemise
+> blouse|shirt|chemise
+> blouse OR shirt OR chemise
 
 Logical AND:
-- dolphins AND football
+> dolphins AND football
 
 Two periods: searchin within a number range:
-- movies 1950..1970
-- burritos €5..€7
+> movies 1950..1970
+> burritos €5..€7
 
 After/before a year:
-- jquery after:2020
-- jquery before:2005
+> jquery after:2020
+> jquery before:2005
 
 Filter file type:
-- jquery filetype:pdf
+> jquery filetype:pdf
 
 ## Expand search
 
 <!-- TODO askip unreliable -->
 Tilde: include synonyms:
-- music \~classes
+> music \~classes
 
 Find stuff:
-- jquery related:url
+> jquery related:url
 
 Wildcard: useful to find all subdomains:
-- site:*.domain.net -www
+> site:*.domain.net -www
 
 One term or the other:
-- php (bad|good)
+> php (bad|good)
 
 ## Cache
 
 Is there a cache of a site/page?
-- myblog cache:myurl
+> myblog cache:myurl
 
 ## Other
 
 Google Maps result:
-- map:silicon valley
+> map:silicon valley
 
 Movie search:
-- movie:oppenheimer
+> movie:oppenheimer
 
 Stock information:
-- stocks:aapl
+> stocks:aapl
 
 Weather in a location:
-- weather:ottawa
+> weather:ottawa
 
-Sources:
-- [FireShip (yt)](https://www.youtube.com/watch?v=cEBkvm0-rg0)
+**Sources:**
+- [yt: FireShip](https://www.youtube.com/watch?v=cEBkvm0-rg0)
 - [ahrefsblog.com](https://ahrefs.com/blog/google-advanced-search-operators/)

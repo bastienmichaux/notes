@@ -8,7 +8,8 @@
 
 To become an efficient programmer, it's helpful to understand how computers (memory in particular) work.
 
-Content:
+
+**Content:**
 - [Computer hardware overview](./hardware.md)
 - [How a computer works](./computer.md)
 - [CPU](./cpu.md)
@@ -16,7 +17,8 @@ Content:
 - [Motherboard](./motherboard.md)
 - [Input/output devices (IO)](./io.md)
 
-## References
+
+**References:**
 - [Mark Burgess: "A short introduction to operating systems" (pdf)](http://markburgess.org/os/os.pdf)
 - [Robert Power, Robert Ford: "Operating System Fundamentals" (pdf)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.464.682&rep=rep1&type=pdf)
 - [Britannica: computer](https://www.britannica.com/technology/computer)

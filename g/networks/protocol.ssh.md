@@ -8,6 +8,14 @@ SSH is widely used by administrators and developers to enable secure remote acce
 
 It's a vital protocol for ensuring secure communication, remote access, and file transfers. By understanding its key features, use cases, and best practices, users can leverage the security benefits of SSH to protect their sensitive data and systems.
 
+**Resources:**
+- [Wikipedia: SSH](https://en.wikipedia.org/wiki/Secure_Shell)
+- [Baeldung: SSH Intro](https://www.baeldung.com/cs/ssh-intro)
+- [ssh.com: What is SSH?](https://www.ssh.com/academy/ssh/protocol)
+- [GoAnywhere: SFTP using SSH](https://www.goanywhere.com/blog/how-sftp-works)
+- [yt: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
+
+
 ## Key Features
 
 - **Encryption**: SSH uses a variety of encryption algorithms to ensure the confidentiality and integrity of data transmitted between the client and server.
@@ -35,10 +43,3 @@ It's a vital protocol for ensuring secure communication, remote access, and file
 - **Limit SSH Access**: Restrict SSH access to specific IP addresses or networks, minimizing the potential attack surface.
 
 - **Keep SSH Software Updated**: Regularly update your SSH client and server software to ensure you have the latest security patches and features.
-
-## Resources
-- [Wikipedia: SSH](https://en.wikipedia.org/wiki/Secure_Shell)
-- [Baeldung: SSH Intro](https://www.baeldung.com/cs/ssh-intro)
-- [ssh.com: What is SSH?](https://www.ssh.com/academy/ssh/protocol)
-- [GoAnywhere: SFTP using SSH](https://www.goanywhere.com/blog/how-sftp-works)
-- [yt: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
