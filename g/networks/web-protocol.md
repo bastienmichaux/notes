@@ -10,6 +10,8 @@ The World Wide Web is an application that uses the Internet as an infrastructure
 
 The **HyperText Transfer Protocol (HTTP)** is the TCP/IP-based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet.
 
+**HTTP, or HyperText Transfer Protocol**, is the foundation of data communication on the World Wide Web. It defines how data should be formatted and transmitted between a client (like your browser) and a web server. HTTP is a stateless protocol, meaning each request and response pair is independent from others.
+
 Resources:
 - [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
 - [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
@@ -21,7 +23,9 @@ Resources:
 
 ## DNS
 
-The **Domain Name System (DNS)** is the phonebook of the Internet. Humans access information online through domain names, like   `nytimes.com` or `espn.com`. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
+The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember names instead of numerical IP addresses.
+
+Domain names like `google.com` are human-readable and can be memorized. DNS translates domain names to IP addresses. This process is called domain name resolution.
 
 Resources:
 - [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
@@ -33,11 +37,18 @@ Resources:
 
 # HTTPS
 
-HTTPS is a secure way to send data between a web server and a browser.
+**HTTPS**, or HTTP Secure, is a secure version of HTTP that encrypts data between the client and server using Secure Sockets Layer (SSL) or Transport Layer Security (TLS) to protect sensitive data from being intercepted or tampered with.
 
-A communication through HTTPS starts with the handshake phase during which the server and the client agree on how to encrypt the communication, in particular they choose an encryption algorithm and a secret key. After the handshake all the communication between the server and the client will be encrypted using the agreed upon algorithm and key.
+<!-- TODO: link to handshake -->
+A communication through HTTPS starts with the **handshake phase** during which the server and the client agree on how to encrypt the communication. In particular they choose an encryption algorithm and a secret key.
 
-The handshake phase uses a particular kind of cryptography, called asymmetric cryptography, to communicate securely even though client and server have not yet agreed on a secret key. After the handshake phase the HTTPS communication is encrypted with symmetric cryptography, which is much more efficient but requires client and server to both have knowledge of the secret key.
+After the handshake all the communication between the server and the client will be encrypted using the agreed upon algorithm and key.
+
+<!-- TODO: link to crypto -->
+The handshake phase uses a particular kind of cryptography, called **asymmetric cryptography**, to communicate securely even though client and server have not yet agreed on a secret key.
+
+<!-- TODO: link to crypto -->
+After the handshake phase the HTTPS communication is encrypted with **symmetric cryptography**, which is much more efficient but requires client and server to both have knowledge of the secret key.
 
 Resources:
 - [CloudFlare: What is HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)

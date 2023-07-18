@@ -2,27 +2,47 @@
 
 # Network Protocols
 
-Protocols are sets of rules that govern the communication between devices within a network. Some of the most common protocols include:
+Protocols are sets of rules and procedures that define how data should be transmitted, formatted, and processed. They govern communications between devices within a network.
+
+Regarding cyber security, understanding protocols is vital for identifying potential vulnerabilities and making informed decisions on network defense strategies.
+
+Some of the most common protocols include:
 
 **Internet protocols:**
-- **Transmission Control Protocol (TCP):** Ensures the reliable transmission of data and establishes connections between devices.
-- **Internet Protocol (IP):** Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.
-- **User Datagram Protocol (UDP):** A lightweight, fast, but less reliable protocol compared to TCP, often used for streaming and gaming applications.
-- **File Transfer Protocol (FTP):**
-- **Simple Mail Transfer Protocol (SMTP):**
+- **[Transmission Control Protocol (TCP)](#tcp):** Fundamental standard for transmitting data and establishing connections.
+- **[Internet Protocol (IP)](#ip):** Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.
+- **File Transfer Protocol (FTP):** Transfer files over a TCP network.
+- **[Simple Mail Transfer Protocol (SMTP)](./email.md#smtp):** Sends mail from a client to an email server.
 - **Dynamic Host Configuration Protocol (DHCP):**
 - **Network Time Protocol (NTP):**
 - **Transport Layer Security (TLS):** Cryptographic control of communication.
 - **SSH:**
 
-See also **[Web protocols](./web-protocols.md):**
+**[Web protocols](./web-protocol.md):**
 - **[HTTP](./web-protocols.md#http):** Client-server communication on the web.
 - **[DNS](./web-protocols.md#dns):** Translates IP addresses to human-readable domain names.
 - **[HTTPS](./web-protocols.md#https):** Secured HTTP protocol built on top of TLS
 
-## TCP/IP
+**Other protocols:**
+- **User Datagram Protocol (UDP):** Protocol often used for streaming and gaming applications. Faster and lighter than TCP, but less reliable.
+
+## Terminology
+
+### Stateless
+
+With a stateless protocol, each request and response pair is independent from others. HTTP is an example of stateless protocol.
+<!-- TODO: tell exactly why -->
+
+## TCP
+
+The **Transmission Control Protocol (TCP)** ensures the reliable transmission of data. It also establishes connections between devices.
+
+<!-- TODO: connection-oriented protocol -->
+This connection-oriented protocol ensures that data is delivered correctly between applications over a network. It ensures accurate and **complete** data delivery by establishing a connection, segmenting data into smaller packets, verifying the receipt of packets, and reordering packets to their original sequence.
+<!-- TODO: explain how -->
 
 Resources:
+- [Fortinet.com: What is TCP?](https://www.fortinet.com/resources/cyberglossary/tcp-ip)
 - [Geeksforgeeks: TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
 - [Wikipedia: TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 - [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
@@ -32,14 +52,15 @@ Resources:
 
 **Internet Protocol (IP)** is a protocol that enables data exchange between computers over a network. Each device in the network has a unique **IP address**, enabling data packets to be sent correctly.
 
-## UDP
+<!-- TODO: Internet Protocol Suite -->
+IP is the primary protocol in the Internet Layer of the Internet Protocol Suite and has two main versions - IPv4 and IPv6.
 
-<!-- TODO: connectionless, error checking, guarantee delivery, latency -->
-UDP, or User Datagram Protocol, is a connectionless communication protocol used for fast and efficient data transmission. Unlike TCP, UDP does not provide error checking or guarantee delivery, making it suitable for real-time applications like video streaming and online gaming where low latency is crucial.
 
 ## FTP
 
-File Transfer Protocol(FTP) is a TCP/IP based application layer communication protocol that helps transferring files between local and remote file systems over the network. To transfer a file, 2 TCP connections(control connection and data connection) are used in parallel.
+**File Transfer Protocol (FTP)** is an application layer communication protocol for transferring files over a TCP-based network, such as the Internet.
+
+To transfer a file, two TCP connections (the control connection and data connection) are used in parallel.
 
 <!-- TODO: SFTP, FTPS -->
 
@@ -95,3 +116,8 @@ Resources:
 - [ssh.com: What is SSH?](https://www.ssh.com/academy/ssh/protocol)
 - [GoAnywhere: SFTP using SSH](https://www.goanywhere.com/blog/how-sftp-works)
 - [yt: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
+
+## UDP
+
+<!-- TODO: connectionless, error checking, guarantee delivery, latency -->
+UDP, or User Datagram Protocol, is a connectionless communication protocol used for fast and efficient data transmission. Unlike TCP, UDP does not provide error checking or guarantee delivery, making it suitable for real-time applications like video streaming and online gaming where low latency is crucial.

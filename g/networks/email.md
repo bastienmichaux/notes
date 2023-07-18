@@ -1,8 +1,8 @@
 [Home](../../README.md) > [Networks](./README.md)
 
-# Email Protocols
+# Email
 
-Electronic mail, commonly shortened to “email,” is a communication method that uses electronic devices to deliver messages across computer networks. "Email" refers to both the delivery system and individual messages that are sent and received.
+Email (short for electronic mail) is a communication method that uses electronic devices to deliver messages across computer networks. "Email" refers to both the delivery system and individual messages that are sent and received.
 
 **Protocols:**
 - [SMTP](#smtp)
@@ -17,9 +17,17 @@ Electronic mail, commonly shortened to “email,” is a communication method th
 
 ## SMTP
 
-Email is emerging as one of the most valuable services on the internet today. Most internet systems use SMTP as a method to transfer mail from one user to another. SMTP is a push protocol and is used to send the mail whereas POP (post office protocol) or IMAP (internet message access protocol) are used to retrieve those emails at the receiver’s side.
+The **Simple Mail Transfer Protocol (SMTP)** is the fundamental email protocol. It defines how email messages should be formatted, encrypted, and relayed between email clients, servers, and other email systems.
 
-SMTP is an application layer protocol. The client who wants to send the mail opens a TCP connection to the SMTP server and then sends the mail across the connection. The SMTP server is an always-on listening mode. As soon as it listens for a TCP connection from any client, the SMTP process initiates a connection through port 25. After successfully establishing a TCP connection the client process sends the mail instantly.
+Its responsibility is simply to send the mail, whereas POP (post office protocol) or IMAP (internet message access protocol) are used to retrieve those emails at the receiver’s side.
+
+Regarding the OSI Model, SMTP is an application layer protocol.
+
+<!-- TODO: push protocol -->
+SMTP is also a push protocol. The client who wants to send the mail opens a TCP connection to a SMTP server and then sends the mail across the connection.
+
+<!-- TODO: always-on listening mode -->
+The SMTP server is on always-on listening mode. As soon as it receives a TCP connection from any client, the SMTP process initiates a connection through port 25. After successfully establishing the TCP connection, the client process sends the mail.
 
 Resources:
 - [GeeksForGeeks: What is Simple Mail Transfer Protocol (SMTP)?](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
