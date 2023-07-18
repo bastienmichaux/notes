@@ -23,6 +23,7 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 - [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
 - [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
 - [yt: OSI Model](https://www.youtube.com/watch?v=dV8mjZd1OtU)
+- [yt: Fireship: Computer Networking in 100 seconds](https://www.youtube.com/watch?v=keeqnciDVOo)
 
 
 ## Physical Layer
@@ -47,13 +48,17 @@ The **Network layer** is responsible for **routing** data packets between differ
 
 It determines the optimal path to transfer data between the source and destination devices and assigns logical addresses (IP addresses) to devices on the network.
 
+**IP** is a Network Layer protocol.
+
 <!-- TODO: routing, packet, logical address assignation -->
 
 ## Transport Layer
 
 The **Transport layer** is in charge of ensuring error-free and reliable data transmissions between devices.
 
-It achieves this by managing flow control, error checking, and data segmentation. It also establishes connections between devices and manages data transfer using protocols like Transmission Control Protocol (TCP) and User Datagram Protocol (UDP).
+It achieves this by managing flow control, error checking, and data segmentation. It also establishes connections between devices and manages data transfer.
+
+The **Transmission Control Protocol (TCP)** and **User Datagram Protocol (UDP)** are examples of Transport Layer Protocols.
 
 <!-- TODO: TCP, UDP -->
 

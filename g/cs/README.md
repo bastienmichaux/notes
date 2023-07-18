@@ -4,6 +4,8 @@
 
 **Note:** This section is freely inspired from the [Computer Science Roadmap](https://roadmap.sh/computer-science) from [roadmap.sh](https://roadmap.sh).
 
+To understand Computer Science concepts, it's advised to program in C++ or C, since they force you to deal with pointers and memory allocation/deallocation. A lot of CS-specialized resources also refer to C/C++.
+
 **Contents:**
 - [Representing data](./data.md)
 - [Algorithms](./algorithm.md)
