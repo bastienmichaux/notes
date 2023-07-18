@@ -4,11 +4,7 @@
 
 Important networking concepts to understand.
 
-<!-- TODO: duplex, full duplex, server, client, NIC, MAC address -->
-
-### NIC
-
-Each computer in a network has a **network interface card (NIC)**. This is an input/output device that sends and receives data over cables.
+<!-- TODO: duplex, full duplex, server, client, NIC, MAC address, data packet -->
 
 ## Socket
 
