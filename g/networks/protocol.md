@@ -30,7 +30,7 @@ Resources:
 
 ## IP
 
-TODO
+**Internet Protocol (IP)** is a protocol that enables data exchange between computers over a network. Each device in the network has a unique **IP address**, enabling data packets to be sent correctly.
 
 ## UDP
 
