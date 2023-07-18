@@ -34,7 +34,8 @@ TODO
 
 ## UDP
 
-TODO
+<!-- TODO: connectionless, error checking, guarantee delivery, latency -->
+UDP, or User Datagram Protocol, is a connectionless communication protocol used for fast and efficient data transmission. Unlike TCP, UDP does not provide error checking or guarantee delivery, making it suitable for real-time applications like video streaming and online gaming where low latency is crucial.
 
 ## FTP
 
