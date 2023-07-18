@@ -14,6 +14,8 @@ Email (short for electronic mail) is a communication method that uses electronic
 - [SPF](#spf)
 - [white/grey listing](#listing)
 
+**Resources:**
+- [CloudFlare: What is an email?](https://www.cloudflare.com/learning/email-security/what-is-email/)
 
 ## SMTP
 
@@ -29,9 +31,9 @@ SMTP is also a push protocol. The client who wants to send the mail opens a TCP 
 <!-- TODO: always-on listening mode -->
 The SMTP server is on always-on listening mode. As soon as it receives a TCP connection from any client, the SMTP process initiates a connection through port 25. After successfully establishing the TCP connection, the client process sends the mail.
 
-Resources:
+**Resources:**
 - [GeeksForGeeks: What is Simple Mail Transfer Protocol (SMTP)?](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
-
+- [Wikipedia: SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
 
 ## IMAP
 
@@ -39,7 +41,7 @@ IMAP (port 143) or IMAPS (port 993) allows you to access your email wherever you
 
 IMAP only downloads a message when you click on it, and attachments aren't automatically downloaded. This way you're able to check your messages a lot more quickly than POP.
 
-Resources:
+**Resources:**
 - [Wikipedia: Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
 - [yt: What is IMAP and How To Use It | Email Tutorial](https://www.youtube.com/watch?v=cfXabGOA2s8)
 
@@ -52,7 +54,7 @@ Email servers hosted by Internet service providers also use POP3 to receive and 
 
 Once the email client has downloaded the emails, they are usually deleted from the server, although some email clients allow users to specify that mails be copied or saved on the server for a period of time.
 
-Resources:
+**Resources:**
 - [TechTarget: What is POP3?](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
 
 
@@ -62,7 +64,7 @@ DMARC stands for Domain-based Message Authentication, Reporting, and Conformance
 
 It's an authentication method on the email that is built to protect domain email from invalid email addresses or commonly known as email spoofing, email attacks, phishing, scams, and other threat activities.
 
-Resources:
+**Resources:**
 - [DMARC Official Website](https://dmarc.org/)
 
 
@@ -81,7 +83,7 @@ Resources:
 
 DomainKeys Identified Mail (DKIM) is an email authentication method designed to detect forged sender addresses in email (email spoofing), a technique often used in phishing and email spam.
 
-Resources:
+**Resources:**
 - [BrainKart: DomainKeys Identified Mail](https://www.brainkart.com/article/DomainKeys-Identified-Mail_8493/)
 
 
@@ -91,10 +93,6 @@ White listing is a process of adding an email to an approved sender list, so ema
 
 Grey listing is a method of protecting e-mail users against spam. A mail transfer agent (MTA) using greylisting will "temporarily reject" any email from a sender it does not recognize. If the mail is legitimate, the originating server will try again after a delay, and the email will be accepted if sufficient time has elapsed.
 
-Resources:
+**Resources:**
 - [CBlohm: Basic Introduction to whitelisting](https://www.cblohm.com/blog/education-marketing-trends/what-is-email-whitelisting/)
 - [Wikipedia: Detailed Introduction to greylisting](https://en.wikipedia.org/wiki/Greylisting_(email))
-
-
-## Resources
-- [CloudFlare: What is an email?](https://www.cloudflare.com/learning/email-security/what-is-email/)

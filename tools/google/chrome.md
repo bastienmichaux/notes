@@ -36,4 +36,4 @@ History:
 - previous page: `alt + left arrow`
 - next page: `alt + right arrow`
 
-Reference: https://support.google.com/chrome/answer/157179
+**Reference:** https://support.google.com/chrome/answer/157179

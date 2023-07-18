@@ -143,7 +143,8 @@ Graphs are useful to represent networks: telephone networks, circuit networks, s
 
 More on graphs on [our dedicated page](./graph.md).
 
-Resources:
+
+**Resources:**
 - [Graph Data Structure](https://www.simplilearn.com/tutorials/data-structure-tutorial/graphs-in-data-structure)
 - [Graph Data Structure | Illustrated Data Structures (youtube)](https://www.youtube.com/watch?v=0sQE8zKhad0)
 - [CSE373 2020 - Lecture 10 - Graph Data Structures (yt)](https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10)

@@ -18,6 +18,22 @@ This project uses [Github-flavored Markdown]() and that's the implementation I'm
 - [Resources](#resources)
 - [References](#references)
 
+**Resources:**
+- [Awesome Markdown list](https://github.com/BubuAnabelas/awesome-markdown/#readme)
+- [Github emoji codes](https://gist.github.com/rxaviers/7360908)
+- [Popular 3rd-party extension for VSCode](https://github.com/yzhang-gh/vscode-markdown/#readme)
+- [Advanced Github Markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+TODO: create diagrams: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams 
+TODO: math expressions: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
+
+**References:**
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- https://www.markdownguide.org/extended-syntax/
+
+**Tools:**
+- [Markdown to HTML converter](https://markdowntohtml.com/)
+- [Tables generator](https://www.tablesgenerator.com/markdown_tables)
+
 
 ## Core Markdown
 
@@ -182,20 +198,3 @@ _italic text_
 ```
 
 Note: you can also create code blocks by inserting 4 spaces in front of a line. But it's not recommended.
-
-
-## Resources
-- [Awesome Markdown list](https://github.com/BubuAnabelas/awesome-markdown/#readme)
-- [Github emoji codes](https://gist.github.com/rxaviers/7360908)
-- [Popular 3rd-party extension for VSCode](https://github.com/yzhang-gh/vscode-markdown/#readme)
-- [Advanced Github Markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
-<!-- TODO: create diagrams: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams  -->
-<!-- TODO: math expressions: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions -->
-
-Tools:
-- [Markdown to HTML converter](https://markdowntohtml.com/)
-- [Tables generator](https://www.tablesgenerator.com/markdown_tables)
-
-## References
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-- https://www.markdownguide.org/extended-syntax/

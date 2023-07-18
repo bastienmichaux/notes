@@ -16,6 +16,15 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 - While the OSI model has 7 layers, the TCP/IP model has a more summarized form, consisting of only 4 layers.
 - It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s.
 
+**Resources:**
+- [Cloudflare: What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+- [Geeksforgeeks: Layers of OSI model](https://www.geeksforgeeks.org/layers-of-osi-model/)
+- [yt: RealPars: What is OSI Model?](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
+- [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
+- [yt: OSI Model](https://www.youtube.com/watch?v=dV8mjZd1OtU)
+
+
 ## Physical Layer
 
 The **Physical layer** deals with the physical connection between devices, like cables or wireless signals.
@@ -63,11 +72,3 @@ This layer also deals with data encryption and decryption, which is an essential
 ## Application Layer
 
 The **Application layer** is the interface between the user and the communication system. It is responsible for providing networking services for various applications, like email, web browsing, or file sharing.
-
-## Resources
-- [Cloudflare: What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
-- [Geeksforgeeks: Layers of OSI model](https://www.geeksforgeeks.org/layers-of-osi-model/)
-- [yt: RealPars: What is OSI Model?](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
-- [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-- [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
-- [yt: OSI Model](https://www.youtube.com/watch?v=dV8mjZd1OtU)

@@ -2,7 +2,12 @@
 
 # Network Topologies
 
-Network topologies describe the arrangement of various devices in a network, their connections, and the flow of data between them. Understanding common network topologies can help you identify potential vulnerabilities and enhance your overall cybersecurity posture. Here, we'll briefly discuss the different types of network topologies and their advantages and disadvantages.
+Network topologies describe the physical arrangement of various devices in a network, their connections, and the flow of data between them.
+
+Understanding common network topologies helps identifying potential vulnerabilities and enhance cyber security. For network administrators, it's essential to consider factors such as scalability, reliability, and cost when implementing a network topology.
+
+Listed below are the different types of network topologies and their advantages and disadvantages.
+
 
 ## [Bus Topology](./topology.bus.md)
 
@@ -19,6 +24,7 @@ In a bus topology, all devices in the network are connected to a single communic
 - Performance degrades as more devices are added
 - Limited cable length and number of devices
 
+
 ## [Star Topology](./topology.star.md)
 
 A star topology connects all devices to a central point or hub (typically a switch or a router). The central point is responsible for transmitting data between devices in the network.
@@ -33,6 +39,7 @@ A star topology connects all devices to a central point or hub (typically a swit
 
 - Requires more cabling than bus topology
 - If the central hub fails, the entire network fails
+
 
 ## [Ring Topology](./topology.ring.md)
 
@@ -49,6 +56,7 @@ In a ring topology, devices are connected in a circular pattern, with each devic
 - If one device fails, it can affect the entire network
 - Data transmission can be slow due to the loop structure
 
+
 ## [Mesh Topology](./topology.mesh.md)
 
 A mesh topology connects all devices directly to every other device in the network. It can be a full mesh (where every device is connected to every other device) or a partial mesh (where some devices are connected to all others, while others maintain only a few connections).
@@ -63,6 +71,7 @@ A mesh topology connects all devices directly to every other device in the netwo
 - Requires a large number of cables, making it expensive and difficult to manage
 - Can be challenging to set up and maintain
 
+
 ## Hybrid Topology
 
 A hybrid topology combines two or more different topologies, such as a star and ring topology, in a single network. It can be customized to fit specific network requirements and performance needs.
@@ -76,5 +85,3 @@ A hybrid topology combines two or more different topologies, such as a star and 
 
 - Can be complex and difficult to manage
 - More expensive than other topologies
-
-Understanding these different network topologies can help you design a more secure and efficient network or improve the existing network structure in your organization. It's essential to consider factors such as scalability, reliability, and cost when selecting the best topology for your needs.
