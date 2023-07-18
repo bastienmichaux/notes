@@ -18,7 +18,13 @@ If you consider the motherboard as a big city:
 <!-- TODO: traces -->
 <!-- TODO: system bus -->
 
-A bus is a wire on the motherboard, it's the physical pathway allowing data to flow between components. There are several different busses on the motherboard, connecting different computer parts.
+Busses are wires on the motherboard, it's the physical pathway allowing data to flow between components.
+
+There are several different busses on the motherboard, connecting different computer parts:
+- Data bus: carries the actual data being processed
+- Address bus: determines where to send/read data, carries info about the device with which the CPU is communicating (physical address)
+- Control bus: determiens 
+- System bus: combines data, address and control bus
 
 **Speed:** All busses don't have the same speed. Like roads in a city, there are wider, faster busses and narrower, slower busses.
 
@@ -29,9 +35,13 @@ A bus is a wire on the motherboard, it's the physical pathway allowing data to f
 
 ## Chipset
 
-The chipset is the motherboard's communications center and trafic controller. It determines what components are compatible with the motherboard. Most computers have a standardized 2-parts chipset. Those parts are the Northbridge and Southbridge chips:
-- **Northern Bridge:** (aka host bridge) connects the main components (CPU, RAM, AGP).
-- **Southern Bridge:** connects the I/O busses (peripherals) to the Northern Bridge.
+The chipset is the motherboard's communications center and trafic controller. It determines what components are compatible with the motherboard.
+
+Most modern computers have a single-chip system where components (like memory and graphics controllers) are integrated into the CPU.
+
+Note: Older motherboards have a standardized 2-parts chipset comprising of the Northbridge and Southbridge chips:
+- **North Bridge:** (aka host bridge) connects the main components (CPU, RAM, AGP).
+- **South Bridge:** connects the I/O busses (peripherals) to the Northern Bridge.
 
 
 ## Expansion slots
