@@ -6,6 +6,7 @@ A Balanced Search Tree is a tree data structure that allows for fast insertion, 
 
 It's a type of self-balancing binary search tree: it's a binary tree that maintains the binary search tree property while also keeping the tree balanced. The tree is always approximately balanced, allowing for fast insertion, deletion, and lookup of data.
 
+<!-- TODO: links -->
 Types of Balanced Search Trees:
 - 2-3 Search Tree - 2-3-4 Search Tree
 - Red-Black Tree
@@ -52,25 +53,6 @@ Note: the N is the branching factor (max branches):
 N-ary Trees are also called K-ary, M-ary trees.
 
 - [Wikipedia: K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
-
-
-## Red/Black Tree
-
-A red–black tree is a self-balancing binary search tree where each node stores an extra bit representing "color". The color is used to ensure that the tree remains balanced during insertions and deletions.
-
-<!-- TODO: ? "They are a translation of a 2-3 tree (see below)." -->
-<!-- TODO: worst-case guarantee -->
-
-In practice: Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-
-This make them valuable in time-sensitive applications such as real-time applications and computational geometry. The Completely Fair Scheduler used in current Linux kernels uses red–black trees. In Java 8, the Collection HashMap has replaced using a LinkedList to store identical elements (with poor hashcodes) with a Red-Black tree.
-
-Resources:
-- [Wikipedia: Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-- [Topcoder: An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
-- [yt: Red-Black Trees (playlist) in 30 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
-- [yt: Aduni - Algorithms - Lecture 4 (link jumps to starting point)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
-- [yt: Aduni - Algorithms - Lecture 5](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
 
 
 ## AVL Tree
