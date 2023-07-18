@@ -30,7 +30,9 @@ Some of the most common protocols include:
 
 ### Stateless
 
-With a stateless protocol, each request and response pair is independent from others. HTTP is an example of stateless protocol.
+With a stateless protocol, each request and response pair is independent from the others, making it a fast and efficient way of transmitting data.
+
+HTTP is an example of stateless protocol.
 <!-- TODO: tell exactly why -->
 
 ## TCP
@@ -56,7 +58,7 @@ Resources:
 IP is the primary protocol in the Internet Layer of the Internet Protocol Suite and has two main versions - IPv4 and IPv6.
 
 
-## FTP
+## [FTP](./protocol.ftp.md)
 
 **File Transfer Protocol (FTP)** is an application layer communication protocol for transferring files over a TCP-based network, such as the Internet.
 
@@ -81,43 +83,37 @@ Resources:
 
 - [Wikipedia: NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol)
 
-## TLS
 
-**TLS (Transport Layer Security)** is a cryptographic protocol that provides privacy and data integrity between two communicating applications. It is widely used to secure HTTP, although it can be used with any protocol. By encrypting the packets, anyone who tries to intercept them will not be able to interpret the data.
+## [TLS](./protocol.tls.md)
 
-TLS is often used in combination with **HTTPS**, which is HTTP over TLS.
+**TLS (Transport Layer Security)** is the standard for securing web traffic. By encrypting the packets, anyone who tries to intercept them will not be able to interpret the data.
 
-<details id="ssl">
-<summary><b>About SSL: (click to reveal)</b></summary>
+It is widely used to secure HTTP, although it can be used with any protocol. **HTTPS** is HTTP over TLS.
 
-SSL (Secure Sockets Layer) is another encryption protocol now deprecated due to security flaws, and most modern web browsers no longer support it. But TLS is still secure and widely supported, so preferably use TLS.
+While articles and textbooks may often mention TLS/SSL, SSL is a security protocol that preceded TLS and is now deprecated.
 
-Resources:
-- [Cloudflare - What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
-</details>
 
-Resources:
-- [Cloudflare - What is TLS?](https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/)
-- [Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-- [yt: SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-- [yt: Cristina Formaini: SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-- [yt: SSH vs SSL vs TLS](https://www.youtube.com/watch?v=k3rFFLmQCuY)
-
-## SSH
+## [SSH](./protocol.ssh.md)
 
 <!-- telnet, rlogin -->
 The Secure Shell (SSH) is a network communication protocol that enables two computers to communicate over an insecure network. It is a secure alternative to the non-protected login protocols (such as telnet, rlogin) and insecure file transfer methods (such as FTP). It is mostly used for secure Remote Login and File Transfer.
 
 Note: SFTP = FTP + SSH
 
-Resources:
-- [Wikipedia: SSH](https://en.wikipedia.org/wiki/Secure_Shell)
-- [Baeldung: SSH Intro](https://www.baeldung.com/cs/ssh-intro)
-- [ssh.com: What is SSH?](https://www.ssh.com/academy/ssh/protocol)
-- [GoAnywhere: SFTP using SSH](https://www.goanywhere.com/blog/how-sftp-works)
-- [yt: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
 
 ## UDP
 
 <!-- TODO: connectionless, error checking, guarantee delivery, latency -->
 UDP, or User Datagram Protocol, is a connectionless communication protocol used for fast and efficient data transmission. Unlike TCP, UDP does not provide error checking or guarantee delivery, making it suitable for real-time applications like video streaming and online gaming where low latency is crucial.
+
+
+## SSL
+
+SSL (Secure Sockets Layer) is an encryption protocol now deprecated due to security flaws, and most modern web browsers no longer support it. It's the predecessor to TLS. TLS is still secure and widely supported, so preferably use TLS.
+
+SSL was developed by Netscape in the mid-1990s and has gone through several iterations. The last version, SSLv3, was released in 1996. In 1999 SSL was updated to become TLS. SSL was deprecated in 2015, and it is not recommended for use in modern applications.
+
+Like TLS, SSL creates an encrypted connection between a client (typically a web browser) and a server to ensure that any data transmitted remains private and secure. SSL uses a combination of symmetric and asymmetric encryption methods, as well as digital certificates, to establish and maintain secure communication.
+
+Resources:
+- [Cloudflare - What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
