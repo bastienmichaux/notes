@@ -2,16 +2,25 @@
 
 # Asymptotic Notation
 
-Asymptotic notation measures the efficiency of an algorithm. There are 3 types of it:
-- **Big O:** worst case scenario, or upper bound
-- **Big Theta:** exact growth rate, or exact bound 
-- **Big Omega:** best case scenario, or lower bound 
+Asymptotic notation is a mathematical notation that helps analysing algorithms by measuring their efficiency.
 
-As the input size increases, an algorithm may not have the same performance: its [runtime](#runtime) (time needed to execute) may become too long.
+There are 3 types of asymptotic notation:
+- **[Big O](#big-o):** Worst case scenario, or upper bound.
+- **[Big Theta](#big-theta):** Exact growth rate, or exact bound.
+- **[Big Omega](#big-omega):** Best case scenario, or lower bound.
 
-**Asymptotic analysis:** is the study of how the efficiency of an algorithm changes with the size of its input(s).
+**Asymptotic analysis** is the study of how the efficiency of an algorithm changes with the size of its input(s).
 
-Resources:
+**Complexity** refers to the resources needed to complete a task. As the input size increases, efficiency may decrease dramatically:
+
+- **Time complexity** is the amount of time needed: how the [runtime](#runtime) grows as the input size increases.
+
+- **Space complexity** is the amount of memory needed: it measures of how much additional memory is needed.
+
+Both kinds of complexity are expressed using the Big O Notation.
+
+
+**Resources:**
 - [yt: Big Oh Notation (and Omega and Theta)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN&index=3)
 - [yt: Asymptotic Notation - CS50](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [yt: Big O Notation — Calculating Time Complexity](https://www.youtube.com/watch?v=Z0bH0cMY0E8)
@@ -19,7 +28,7 @@ Resources:
 - [UCBerkeley webcast: CS 61B Lecture 19: Asymptotic Analysis](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 
 
-### Big O Notation
+### Big O
 
 Big O Notation describes the worst case scenario or upper bound of a function. Its opposite is Big Omega. It describes how well an algorithm scales with its input size. Big O is used to compare algorithms and decide which one is better for a task.
 
@@ -60,14 +69,3 @@ Some examples:
 - accessing an array by index is `O(1)`: as long as we have the index, the cost of accessing the element is constant.
 - priting each element of an array is `O(n)`: for an array of size n, the computer executes n operations.
 - on a sorted array, a binary search is `O(log n)`: since it's sorted, we don't have to traverse the entire array, we can start in the middle and build our way from there.
-
-
-### Complexity
-
-Regarding algorithms, complexity refers to the resources needed to complete a task.
-
-Efficiency depends mostly on [complexity](#complexity): time complexity and space complexity. They're both expressed using the Big O Notation.
-
-**Time complexity:** amount of time needed, how the runtime grows as the input size increases.
-
-**Space complexity:** amount of memory needed, measure of how much additional memory is needed as the input size increases.

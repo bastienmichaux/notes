@@ -18,12 +18,13 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 ## Languages
 
-- C++
-- Java
+- [C language](./lg/c/README.md) and [C++](./lg/cpp/README.md)
+- [C# language](./lg/csharp/README.md)
+- [Java](./lg/java/README.md)
 - JavaScript - TypeScript
-- Go
-- Python
-- Rust
+- [Go](./lg/go/README.md)
+- [Python](./lg/python/README.md)
+- [Rust](./lg/rust/README.md)
 
 
 ## Frameworks

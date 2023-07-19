@@ -26,15 +26,15 @@ Domain names like `google.com` are human-readable and can be memorized. DNS tran
 
 ## HTTP
 
-The **HyperText Transfer Protocol (HTTP)** is the foundation of data communication on the World Wide Web.
+The **HyperText Transfer Protocol (HTTP)** is the foundation of data communication on the World Wide Web. It defines how data should be formatted, requested and transmitted between a client (like your browser) and a web server.
 
-It defines how data should be formatted, requested and transmitted between a client (like your browser) and a web server.
-
-HTTP is a TCP/IP-based application layer communication protocol.
+HTTP is TCP/IP-based and an application layer protocol.
 
 It's a stateless protocol, meaning each request and response pair is independent from the others. When you visit a website, your browser sends an HTTP request to the server, which then responds with the requested data. This data is then rendered by your browser.
 
-However, HTTP has one significant drawback — it's not secure. Since it's transmitted in plain text, anyone intercepting the traffic can easily read the content of the messages. This makes HTTP unsuitable for sensitive information like passwords or credit card numbers.
+### Security
+
+HTTP has one significant drawback: it's not secure. Since it's transmitted in plain text, anyone intercepting the traffic can easily read the content of the messages. This makes HTTP unsuitable for sensitive information like passwords or credit card numbers.
 
 Today, HTTP has been taken over by HTTPS because of security concerns. You should be cautious when browsing HTTP websites. Most browsers will display a warning, or purely prevent you from accessing HTTP servers.
 
@@ -62,7 +62,7 @@ These cryptographic protocols provide end-to-end security, ensuring data integri
 
 To implement HTTPS, websites need to obtain an **SSL/TLS certificate** from a trusted **Certificate Authority (CA)**. This certificate authenticates the website's identity and helps establish a secure connection between the client and server.
 
-**How HTTPS works:**
+### How HTTPS works
 <!-- TODO: link to handshake -->
 A communication through HTTPS starts with the **handshake phase** during which the server and the client agree on how to encrypt the communication. In particular they choose an encryption algorithm and a secret key.
 
@@ -94,3 +94,4 @@ After the handshake phase the HTTPS communication is encrypted with **symmetric 
 - [Mozilla: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [yt: CORS in 100 Seconds](https://www.youtube.com/watch?v=4KHiSt0oLJ0)
 - [yt: CORS in 6 minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)
+- [yt: Fireship: Why do we need CORS?](https://www.youtube.com/watch?v=v969_M6cWk0&t=130s)
