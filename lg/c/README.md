@@ -4,7 +4,7 @@
 
 C is a general-purpose language created in the 1970s by Dennis Ritchie, and remains very widely used and influential.
 
-C is still used today for close-to-the metal programs, such as hardware drivers, embedded systems and the Linux kernel.
+C is still used today for close-to-the-metal programs, such as hardware drivers, embedded systems, the Linux kernel and a lot of other low-level or performance-critical programs.
 
 **Resources:**
 - [W3Schools](https://www.w3schools.com/c/)
