@@ -20,6 +20,7 @@ Computer networking is the practice of creating and administrating computer netw
   - [Ring](./topology.ring.md)
   - [Star](./topology.star.md)
 - [OSI model](./osi-model.md)
+- [Internet](./internet.md)
 - [Protocols](./protocol.md):
   - [Internet Protocol (IP)](./protocol.ip.md)
   - [IP addresses](./ip-address.md)
