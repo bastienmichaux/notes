@@ -1,0 +1,49 @@
+# DNS
+
+**DNS** is a key component in the internet infrastructure that translates human-friendly domain names (e.g., `www.example.com`) into IP addresses (e.g., `192.0.2.44`). This translation process is called **domain name resolution**.
+
+Without DNS, we would have to remember complex numeric IP addresses for each website we want to visit.
+
+**Resources:**
+- [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+- [How DNS works (comic)](https://howdns.works/)
+- [Wikipedia: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
+- [DNS in detail (TryHackMe)](https://tryhackme.com/room/dnsindetail)
+- [yt: DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
+- [yt: DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
+- [yt: Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+- [YouTube: Fireship: DNS in 100 Seconds](https://www.youtube.com/watch?v=uvr9lhugayu)
+
+
+## How it works
+
+The DNS operates as a distributed and hierarchical system which involves the following components:
+
+<!-- TODO: ISP -->
+- **DNS Resolver**: Your device's initial contact point with the DNS infrastructure, often provided by your Internet Service Provider (ISP) or a third-party service like Google Public DNS.
+
+<!-- TODO: TLD server -->
+- **Root Servers**: The authoritative servers on the top of the DNS hierarchy that guide DNS queries to the appropriate Top-Level Domain (TLD) servers.
+
+- **TLD Servers**: These servers manage the allocation of domain names for top-level domains, such as `.com`, `.org`, etc.
+
+- **Authoritative Name Servers**: These are the servers responsible for storing the DNS records pertaining to a specific domain (e.g., `example.com`).
+
+Some common DNS record types you might encounter include:
+
+- **A Record**: Maps a domain name to an IPv4 address.
+- **AAAA Record**: Maps a domain name to an IPv6 address.
+- **CNAME (Canonical Name) Record**: Maps an alias domain name to a canonical domain name.
+- **MX (Mail Exchange) Record**: Specifies the mail servers responsible for handling email for the domain.
+- **TXT (Text) Record**: Contains human-readable or machine-readable text, often used for verification purposes or providing additional information about a domain.
+
+## Threats
+
+As an essential part of the internet, the security and integrity of the DNS infrastructure are crucial.
+
+However, it's vulnerable to various types of cyber attacks, such as:
+- DNS cache poisoning
+- Distributed Denial of Service (DDoS) attacks
+- DNS hijacking
+
+DNS security measures, such as **DNSSEC** (DNS Security Extensions) and monitoring unusual DNS traffic patterns, help mitigating risks.
