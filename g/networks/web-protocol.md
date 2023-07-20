@@ -3,11 +3,38 @@
 <!-- TODO: it's not clear what this page contains, split the content like other protocols, then update protocols.md and README.md -->
 # Web Protocols
 
-The web has its own set of protocols:
-- **DNS:** translates IP addresses to domain names.
+The Web is not the Internet, even though most people confuse both technologies. The World Wide Web is an application that uses the Internet as an infrastructure.
+
+The web has its own set of protocols and technologies:
+- **[Domain names](#domain-name):** unique names for websites.
+- **[Hosting](#hosting):** putting a website on the internet.
+- **[DNS](#dns):** translates IP addresses to domain names.
 - **HTTP:** governs client-server requests and responses.
 - **HTTPS:** a more secured version of HTTP.
 - **CORS:** an HTTP-based security mechanism.
+
+
+# Domain Name
+
+A domain name is a unique, easy-to-remember address used to access websites, such as `google.com`. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
+
+**Resources:**
+- [MDN: What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
+- [CloudFlare: What is a Domain Name? | Domain name vs. URL](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/)
+- [YouTube: A Beginners Guide to How Domain Names Work](https://www.youtube.com/watch?v=Y4cRx19nhJk)
+
+
+## Hosting
+
+Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website ([Net Neutrality](https://en.wikipedia.org/wiki/Net_neutrality)).
+
+**Resources:**
+- [MDN: What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
+- [MDN: What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+- [YouTube: What Is Web Hosting? Explained](https://www.youtube.com/watch?v=htbY9-yggB0)
+- [YouTube: Different Types of Web Hosting Explained](https://www.youtube.com/watch?v=AXVZYzw8geg)
+- [YouTube: Where to Host a Fullstack Project on a Budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q)
+
 
 
 ## [DNS](./protocol.dns.md)

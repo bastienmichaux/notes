@@ -9,13 +9,18 @@ Without DNS, we would have to remember complex numeric IP addresses for each web
 
 **Resources:**
 - [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+- [Mess with DNS - DNS Playground](https://messwithdns.net/)
 - [How DNS works (comic)](https://howdns.works/)
+- [MDN: Understanding Domain names](https://developer.mozilla.org/en-US/docs/Glossary/DNS/)
 - [Wikipedia: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
 - [DNS in detail (TryHackMe)](https://tryhackme.com/room/dnsindetail)
 - [yt: DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-- [yt: DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
-- [yt: Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+- [YouTube: DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
+- [YouTube: Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
 - [YouTube: Fireship: DNS in 100 Seconds](https://www.youtube.com/watch?v=uvr9lhugayu)
+- [YouTube: When to add glue records to DNS settings](https://www.youtube.com/watch?v=e48AyJOA9W8)
+- [YouTube: DNS Records for Newbies - How To Manage Website Records](https://www.youtube.com/watch?v=YV5tkQYcvfg)
+
 
 
 ## How it works
