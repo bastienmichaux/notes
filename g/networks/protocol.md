@@ -63,18 +63,14 @@ Resources:
 
 **File Transfer Protocol (FTP)** is an application layer communication protocol for transferring files over a TCP-based network, such as the Internet.
 
-To transfer a file, two TCP connections (the control connection and data connection) are used in parallel.
-
-<!-- TODO: SFTP, FTPS -->
-
 
 ## DHCP
 
 - [Wikipedia: DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)
 
-## NTP
+## [NTP](./protocol.ntp.md)
 
-- [Wikipedia: NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol)
+**NTP (Network Time Protocol)** helps synchronizing the clocks of computer systems and other devices within a network.
 
 
 ## [TLS](./protocol.tls.md)

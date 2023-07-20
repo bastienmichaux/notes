@@ -16,9 +16,9 @@ FTP is a commonly used protocol but it has significant security vulnerabilities.
 
 FTP operates on a client-server model, where one computer acts as the client (the sender or requester) and the other acts as the server (the receiver or provider). The client initiates a connection to the server, usually by providing a username and password for authentication, and then requests a file transfer.
 
-FTP uses two separate channels to carry out its operations:
+FTP uses two parallel channels to carry out its operations:
 
-- **Control Channel:** it establishes the connection between the client and the server and send commands, such as specifying the file to be transferred, the transfer mode, and the directory structure.
+- **Control Channel:** it establishes the client-server connection and send commands, such as specifying the file to be transferred, the transfer mode, and the directory structure.
 - **Data Channel:** it's used to transfer the actual file data between the client and the server.
 
 
