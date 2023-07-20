@@ -58,7 +58,7 @@ HTTP is a stateless protocol, meaning that the server does not keep any data (st
 **Resources:**
 - [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
 - [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [Mozilla: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [MDN: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 - [How HTTPS Works (comic)](https://howhttps.works)
 - [Journey to HTTP/2](https://kamranahmed.info/blog/2016/08/13/http-in-depth)
 - [SmashingMagazine: HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
@@ -119,7 +119,7 @@ After the handshake phase the HTTPS communication is encrypted with **symmetric 
 **Cross-Origin Resource Sharing (CORS)** is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
 **Resources:**
-- [Mozilla: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [MDN: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [yt: CORS in 100 Seconds](https://www.youtube.com/watch?v=4KHiSt0oLJ0)
 - [yt: CORS in 6 minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)
 - [yt: Fireship: Why do we need CORS?](https://www.youtube.com/watch?v=v969_M6cWk0&t=130s)
