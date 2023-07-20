@@ -9,5 +9,5 @@ Web sockets area two-way communication between the servers and the clients, whic
 **Resources:**
 - [Socket.io Library Bidirectional and low-latency communication for every platform](https://socket.io/)
 - [tutorialspoint: Introduction to WebSockets](https://www.tutorialspoint.com/websockets/index.htm)
-- [yt: A Beginners Guide to WebSockets](https://www.youtube.com/watch?v=8ARodQ4Wlf4)
-- [yt: Socket.io: WebSockets in 100 Seconds & Beyond](https://www.youtube.com/watch?v=1BfCnjr_Vjg)
+- [YouTube: A Beginners Guide to WebSockets](https://www.youtube.com/watch?v=8ARodQ4Wlf4)
+- [YouTube: Socket.io: WebSockets in 100 Seconds & Beyond](https://www.youtube.com/watch?v=1BfCnjr_Vjg)

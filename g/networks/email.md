@@ -43,7 +43,7 @@ IMAP only downloads a message when you click on it, and attachments aren't autom
 
 **Resources:**
 - [Wikipedia: Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
-- [yt: What is IMAP and How To Use It | Email Tutorial](https://www.youtube.com/watch?v=cfXabGOA2s8)
+- [YouTube: What is IMAP and How To Use It | Email Tutorial](https://www.youtube.com/watch?v=cfXabGOA2s8)
 
 
 ## POP3
@@ -76,7 +76,7 @@ With an SPF record in place, Internet Service Providers can verify that a mail s
 
 Resources:
 - [CloudFlare: What is a DNS SPF record?](https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/)
-- [yt: SPF Overview](https://www.youtube.com/watch?v=WFPYrAr1boU)
+- [YouTube: SPF Overview](https://www.youtube.com/watch?v=WFPYrAr1boU)
 
 
 ## Domain Keys

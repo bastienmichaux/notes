@@ -11,7 +11,7 @@ Hardware components are the physical parts that make up a computer:
 1. [Graphics Processing Unit (GPU)](#graphics-processing-unit)
 
 **Resources:**
-- [yt: What does what in your computer? Computer parts Explained](https://www.youtube.com/watch?v=ExxFxD4OSZ0)
+- [YouTube: What does what in your computer? Computer parts Explained](https://www.youtube.com/watch?v=ExxFxD4OSZ0)
 
 
 ## [Motherboard](./motherboard.md)

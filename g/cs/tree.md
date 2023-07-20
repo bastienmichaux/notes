@@ -24,8 +24,8 @@ A binary tree is a data structure where each node has at most two children: the 
 A binary tree is not necessarily ordered or sorted. The nodes can be arranged in any order without any specific rules or constraints. This makes them flexible, but less efficient than other the kinds of trees for specific problems.
 
 **Resources:**
-- [yt: Binary Trees - Part 1](https://www.youtube.com/watch?v=76dhtgZt38A&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=9)
-- [yt: Binary Trees - Part 2](https://www.youtube.com/watch?v=U1JYwHcFfso&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=10)
+- [YouTube: Binary Trees - Part 1](https://www.youtube.com/watch?v=76dhtgZt38A&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=9)
+- [YouTube: Binary Trees - Part 2](https://www.youtube.com/watch?v=U1JYwHcFfso&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=10)
 
 
 ## Binary Search Tree
@@ -40,14 +40,14 @@ A BST is also known as an ordered tree or sorted binary tree.
 
 **Resources:**
 - [Coursera: Binary Search Trees - Coursera](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-- [yt: Tree | Illustrated Data Structures](https://www.youtube.com/watch?v=S2W3SXGPVyU)
-- [yt: Binary Search Trees - MIT](https://www.youtube.com/watch?v=76dhtgZt38A)
-- [yt: Binary Search Tree Implementation in C++](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-- [yt: BST implementation - memory allocation in stack and heap](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=30)
-- [yt: Find Min and Max Element in Binary Search Tree](https://www.youtube.com/watch?v=Ut90klNN264&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-- [yt: Check if Given Tree is Binary Search Tree or Not](https://www.youtube.com/watch?v=yEwSGhSsT0U&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-- [yt: Delete an Element from Binary Search Tree](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=37)
-- [yt: Inorder Successor in a binary search tree](https://www.youtube.com/watch?v=5cPbNCrdotA&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=38)
+- [YouTube: Tree | Illustrated Data Structures](https://www.youtube.com/watch?v=S2W3SXGPVyU)
+- [YouTube: Binary Search Trees - MIT](https://www.youtube.com/watch?v=76dhtgZt38A)
+- [YouTube: Binary Search Tree Implementation in C++](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+- [YouTube: BST implementation - memory allocation in stack and heap](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=30)
+- [YouTube: Find Min and Max Element in Binary Search Tree](https://www.youtube.com/watch?v=Ut90klNN264&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+- [YouTube: Check if Given Tree is Binary Search Tree or Not](https://www.youtube.com/watch?v=yEwSGhSsT0U&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+- [YouTube: Delete an Element from Binary Search Tree](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=37)
+- [YouTube: Inorder Successor in a binary search tree](https://www.youtube.com/watch?v=5cPbNCrdotA&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=38)
 
 
 ## Full Binary Tree
@@ -90,5 +90,5 @@ An unbalanced binary tree is simply a tree that is not balanced.
 K-D Trees are a data structure that allow for fast nearest neighbor search in high dimensional spaces. They are a generalization of binary search trees, and are used in a variety of applications, including computer vision and computational geometry.
 
 **Resources:**
-- [yt: K-D Tree Algorithm](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+- [YouTube: K-D Tree Algorithm](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 - [Computerphile: K-d Trees](https://www.youtube.com/watch?v=BK5x7IUTIyU)

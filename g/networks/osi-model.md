@@ -19,11 +19,11 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 **Resources:**
 - [Cloudflare: What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 - [Geeksforgeeks: Layers of OSI model](https://www.geeksforgeeks.org/layers-of-osi-model/)
-- [yt: RealPars: What is OSI Model?](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
-- [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-- [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
-- [yt: OSI Model](https://www.youtube.com/watch?v=dV8mjZd1OtU)
-- [yt: Fireship: Computer Networking in 100 seconds](https://www.youtube.com/watch?v=keeqnciDVOo)
+- [YouTube: RealPars: What is OSI Model?](https://www.youtube.com/watch?v=Ilk7UXzV_Qc)
+- [YouTube: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [YouTube: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
+- [YouTube: OSI Model](https://www.youtube.com/watch?v=dV8mjZd1OtU)
+- [YouTube: Fireship: Computer Networking in 100 seconds](https://www.youtube.com/watch?v=keeqnciDVOo)
 
 
 ## Physical Layer

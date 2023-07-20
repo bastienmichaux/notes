@@ -51,8 +51,8 @@ Resources:
 - [Fortinet.com: What is TCP?](https://www.fortinet.com/resources/cyberglossary/tcp-ip)
 - [Geeksforgeeks: TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
 - [Wikipedia: TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-- [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-- [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
+- [YouTube: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+- [YouTube: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
 
 ## [IP](./protocol.ip.md)
 

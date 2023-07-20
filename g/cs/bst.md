@@ -15,8 +15,8 @@ Types of Balanced Search Trees:
 
 **Resources:**
 - [Wikipedia: Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
-- [yt: Balanced Search Trees Operations and Applications 11 min](https://www.youtube.com/watch?v=IbNZ-x1I2IM)
-- [yt: Balanced binary search tree rotations](https://www.youtube.com/watch?v=q4fnJZr8ztY)
+- [YouTube: Balanced Search Trees Operations and Applications 11 min](https://www.youtube.com/watch?v=IbNZ-x1I2IM)
+- [YouTube: Balanced binary search tree rotations](https://www.youtube.com/watch?v=q4fnJZr8ztY)
 
 ## 2-3 Search Tree
 
@@ -28,9 +28,9 @@ In practice: 2-3 trees have faster inserts at the expense of slower searches (si
 
 
 **Resources:**
-- [yt: 23-Tree Intuition and Definition](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
-- [yt: Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-- [yt: 2-3 Trees (student recitation)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [YouTube: 23-Tree Intuition and Definition](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+- [YouTube: Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+- [YouTube: 2-3 Trees (student recitation)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
 ### 2-3-4 Search Tree
 
@@ -41,8 +41,8 @@ The insertion and deletion operations on 2-4 trees are also equivalent to color-
 
 **Resources:**
 - [UCBerkeley webcast: CS 61B Lecture 26: Balanced Search Trees](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
-- [yt: Bottom Up 234-Trees](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-- [yt: Top Down 234-Trees](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
+- [YouTube: Bottom Up 234-Trees](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+- [YouTube: Top Down 234-Trees](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
 ### N-ary Tree
 
@@ -64,7 +64,7 @@ This structure supports `O(log n)` search, insertion, and removal. It's more rig
 
 
 **Resources:**
-- [yt: MIT AVL Trees / AVL Sort](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+- [YouTube: MIT AVL Trees / AVL Sort](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
 - [Coursera: AVL Trees](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
 - [Coursera: AVL Tree Implementation](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
 - [Coursera: Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
@@ -80,8 +80,8 @@ In Practice: B-Trees are widely used in databases. Most modern filesystems use B
 **Resources:**
 - [Wikipedia: B-Tree](https://en.wikipedia.org/wiki/B-tree)
 - [btechsmartclass: B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
-- [yt: Introduction to B-Trees](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
-- [yt: B-Tree Definition and Insertion](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-- [yt: B-Tree Deletion](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-- [yt: MIT 6.851 - Memory Hierarchy Models](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-- [yt: B-Trees (playlist) in 26 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
+- [YouTube: Introduction to B-Trees](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+- [YouTube: B-Tree Definition and Insertion](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+- [YouTube: B-Tree Deletion](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+- [YouTube: MIT 6.851 - Memory Hierarchy Models](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+- [YouTube: B-Trees (playlist) in 26 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
