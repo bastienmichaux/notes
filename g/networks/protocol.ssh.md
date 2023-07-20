@@ -13,7 +13,7 @@ It's a vital protocol for ensuring secure communication, remote access, and file
 - [Baeldung: SSH Intro](https://www.baeldung.com/cs/ssh-intro)
 - [ssh.com: What is SSH?](https://www.ssh.com/academy/ssh/protocol)
 - [GoAnywhere: SFTP using SSH](https://www.goanywhere.com/blog/how-sftp-works)
-- [yt: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
+- [YouTube: OpenSSH Full Guide](https://www.youtube.com/watch?v=ys5zh7kexve)
 
 
 ## Key Features

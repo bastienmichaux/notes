@@ -97,8 +97,8 @@ To implement HTTPS, websites need to obtain an **SSL/TLS certificate** from a tr
 - [baida.dev: HTTPS explained with carrier pigeons](https://baida.dev/articles/https-explained-with-carrier-pigeons)
 - [How HTTPS works (comic)](https://howhttps.works/)
 - [Wikipedia: HTTPS](https://en.wikipedia.org/wiki/HTTPS)
-- [yt: SSL, TLS, HTTP, HTTPS Explained](https://www.youtube.com/watch?v=hExRDVZHhig)
-- [yt: HTTPS — Stories from the field](https://www.youtube.com/watch?v=GoXgl9r0Kjk)
+- [YouTube: SSL, TLS, HTTP, HTTPS Explained](https://www.youtube.com/watch?v=hExRDVZHhig)
+- [YouTube: HTTPS — Stories from the field](https://www.youtube.com/watch?v=GoXgl9r0Kjk)
 
 ### How HTTPS works
 <!-- TODO: link to handshake -->
@@ -120,6 +120,6 @@ After the handshake phase the HTTPS communication is encrypted with **symmetric 
 
 **Resources:**
 - [MDN: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-- [yt: CORS in 100 Seconds](https://www.youtube.com/watch?v=4KHiSt0oLJ0)
-- [yt: CORS in 6 minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)
-- [yt: Fireship: Why do we need CORS?](https://www.youtube.com/watch?v=v969_M6cWk0&t=130s)
+- [YouTube: CORS in 100 Seconds](https://www.youtube.com/watch?v=4KHiSt0oLJ0)
+- [YouTube: CORS in 6 minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)
+- [YouTube: Fireship: Why do we need CORS?](https://www.youtube.com/watch?v=v969_M6cWk0&t=130s)

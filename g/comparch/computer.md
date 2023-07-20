@@ -26,4 +26,4 @@ The operating system continues to load various system components, such as device
 Finally, the graphical user interface (GUI) or command-line interface (CLI) of the operating system is displayed, indicating that the boot process is complete, and the computer is ready for user interaction.
 
 **Resources:**
-- [yt: How a computer works](https://www.youtube.com/watch?v=5f3NJnvnk7k)
+- [YouTube: How a computer works](https://www.youtube.com/watch?v=5f3NJnvnk7k)

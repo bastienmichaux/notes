@@ -14,12 +14,12 @@ The CPU operates using a **fetch-decode-execute cycle**.
 Each CPU has an **instruction set**: the set of elementary operations (add, multiply, read value, read memory address, etc) they can execute.
 
 **Resources:**
-- [yt: How CPUs execute a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
-- [yt: How computers calculate - ALU](https://youtu.be/1I5ZMmrOfnA)
-- [yt: Registers and RAM](https://youtu.be/fpnE6UAfbtU)
-- [yt: The Central Processing Unit (CPU)](https://youtu.be/FZGugFqdr60)
-- [yt: Instructions and Programs](https://youtu.be/zltgXvg6r3k)
-- Fun: [yt: I made a 32-bit computer inside Terraria](https://www.youtube.com/watch?v=zXPiqk0-zDY)
+- [YouTube: How CPUs execute a program](https://www.youtube.com/watch?v=XM4lGflQFvA)
+- [YouTube: How computers calculate - ALU](https://youtu.be/1I5ZMmrOfnA)
+- [YouTube: Registers and RAM](https://youtu.be/fpnE6UAfbtU)
+- [YouTube: The Central Processing Unit (CPU)](https://youtu.be/FZGugFqdr60)
+- [YouTube: Instructions and Programs](https://youtu.be/zltgXvg6r3k)
+- Fun: [YouTube: I made a 32-bit computer inside Terraria](https://www.youtube.com/watch?v=zXPiqk0-zDY)
 
 
 ## CPU parts
@@ -103,7 +103,7 @@ All instructions supported by a CPU are part of the CPU's **instruction set**.
 
 ## Instructions and Programs
 
-See [yt: Crash Course Computer Science #8: Instructions & Programs](https://youtu.be/zltgXvg6r3k)
+See [YouTube: Crash Course Computer Science #8: Instructions & Programs](https://youtu.be/zltgXvg6r3k)
 
 
 ### Instruction set
@@ -147,8 +147,8 @@ Caching is a technique used to speed up communications with slow devices. Since 
 By analogy, in other programming contexts, caching also means keeping a local copy of data for convenience.
 
 See:
-- [yt: MIT 6.004 L15: The Memory Hierarchy](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-- [yt: MIT 6.004 L16: Cache Issues](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- [YouTube: MIT 6.004 L15: The Memory Hierarchy](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+- [YouTube: MIT 6.004 L16: Cache Issues](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
 
 ## Microprocessor

@@ -80,6 +80,6 @@ Programming languages usually implement 6 bitwise operators:
 - `>>` (right shift): shift the bits to the right. `4 << 1 = 2`, `4 << 2 = 1`.
 
 **Resources:**
-- [yt: Bit Manipulation](https://www.youtube.com/watch?v=7jkIUgLC29I)
-- [yt: Computerphile: Binary: Plusses & Minuses (Why We Use Twos Complement)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-- [yt: Algorithms: Bit Manipulation](https://www.youtube.com/watch?v=NLKQEOgBAnw)
+- [YouTube: Bit Manipulation](https://www.youtube.com/watch?v=7jkIUgLC29I)
+- [YouTube: Computerphile: Binary: Plusses & Minuses (Why We Use Twos Complement)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+- [YouTube: Algorithms: Bit Manipulation](https://www.youtube.com/watch?v=NLKQEOgBAnw)
