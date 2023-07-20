@@ -3,36 +3,71 @@
 <!-- TODO: it's not clear what this page contains, split the content like other protocols, then update protocols.md and README.md -->
 # Web Protocols
 
-The web has its own set of protocols:
-- **DNS:** translates IP addresses to domain names.
+The Web is not the Internet, even though most people confuse both technologies. The World Wide Web is an application that uses the Internet as an infrastructure.
+
+The web has its own set of protocols and technologies:
+- **[Domain names](#domain-name):** unique names for websites.
+- **[Hosting](#hosting):** putting a website on the internet.
+- **[DNS](#dns):** translates IP addresses to domain names.
 - **HTTP:** governs client-server requests and responses.
 - **HTTPS:** a more secured version of HTTP.
 - **CORS:** an HTTP-based security mechanism.
 
 
-## DNS
+# Domain Name
 
-The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember names instead of numerical IP addresses.
-
-Domain names like `google.com` are unique, human-readable and can be memorized. DNS translates domain names to IP addresses. This process is called domain name resolution.
+A domain name is a unique, easy-to-remember address used to access websites, such as `google.com`. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
 
 **Resources:**
-- [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
-- [How DNS works (comic)](https://howdns.works/)
-- [Mozilla: Understanding Domain names](https://developer.mozilla.org/en-US/docs/Glossary/DNS/)
-- [Wikipedia: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
-- [yt: DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-- [yt: DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
-- [yt: Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+- [MDN: What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
+- [CloudFlare: What is a Domain Name? | Domain name vs. URL](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/)
+- [YouTube: A Beginners Guide to How Domain Names Work](https://www.youtube.com/watch?v=Y4cRx19nhJk)
 
+
+## Hosting
+
+Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website ([Net Neutrality](https://en.wikipedia.org/wiki/Net_neutrality)).
+
+**Resources:**
+- [MDN: What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
+- [MDN: What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+- [YouTube: What Is Web Hosting? Explained](https://www.youtube.com/watch?v=htbY9-yggB0)
+- [YouTube: Different Types of Web Hosting Explained](https://www.youtube.com/watch?v=AXVZYzw8geg)
+- [YouTube: Where to Host a Fullstack Project on a Budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q)
+
+
+
+## [DNS](./protocol.dns.md)
+
+<!-- TODO: domain name -->
+The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember **domain names** (such as `google.com`) instead of numerical IP addresses (like `123.456.789.1`).
 
 ## HTTP
 
-The **HyperText Transfer Protocol (HTTP)** is the foundation of data communication on the World Wide Web. It defines how data should be formatted, requested and transmitted between a client (like your browser) and a web server.
+The **HyperText Transfer Protocol (HTTP)** is the foundation of data communication on the World Wide Web. It defines how data should be formatted, requested and transmitted between a client (like your browser) and a web server. When you visit a website, your browser sends an HTTP request to the server, which then responds with the requested data. This data is then rendered by your browser.
 
-HTTP is TCP/IP-based and an application layer protocol.
+<!-- TODO: difference between HTTP 1, 2, 3 -->
+Note that there are 3 versions of HTTP, the most recent is HTTP/3.
 
-It's a stateless protocol, meaning each request and response pair is independent from the others. When you visit a website, your browser sends an HTTP request to the server, which then responds with the requested data. This data is then rendered by your browser.
+HTTP is TCP/IP-based (like most internet protocols). It's an application (OSI layer 7).
+
+HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
+
+HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests. Each request and response pair is independent from the others.
+
+**Resources:**
+- [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
+- [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+- [Mozilla: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [How HTTPS Works (comic)](https://howhttps.works)
+- [Journey to HTTP/2](https://kamranahmed.info/blog/2016/08/13/http-in-depth)
+- [SmashingMagazine: HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+- [HTTP/3 Is Now a Standard: Why Use It and How to Get Started](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
+- [Wikipedia: HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+- [YouTube: HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
+- [YouTube: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
+- [YouTube: Full HTTP Networking Course](https://www.youtube.com/watch?v=2JYT5f2isg4)
+
 
 ### Security
 
@@ -44,18 +79,8 @@ When browsing the internet, always look for the padlock icon in the address bar,
 
 As a website owner or developer, it's crucial to prioritize implementing HTTPS, to provide a secure and trustworthy experience for your users.
 
-**Resources:**
-- [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
-- [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [Mozilla: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-- [smashingmagazine: HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
-- [Wikipedia: HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
-- [yt: HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
-- [yt: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
-- [yt: Full HTTP Networking Course](https://www.youtube.com/watch?v=2JYT5f2isg4)
 
-
-# HTTPS
+## HTTPS
 
 **HTTPS**, or HTTP Secure, is a secure version of HTTP that encrypts data between the client and server.
 

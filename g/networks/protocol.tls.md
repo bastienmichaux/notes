@@ -1,4 +1,4 @@
-[Home](../../README.md) > [Networks](./README.md)
+[Home](../../README.md) > [Networks](./README.md) > [Protocols](./protocol.md)
 
 # TLS
 
@@ -15,9 +15,10 @@ TLS provides a more robust and flexible security framework, addressing many of t
 **Resources:**
 - [Cloudflare - What is TLS?](https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/)
 - [Wikipedia - SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-- [yt: SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
-- [yt: Cristina Formaini: SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
-- [yt: SSH vs SSL vs TLS](https://www.youtube.com/watch?v=k3rFFLmQCuY)
+- [YouTube: SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+- [YouTube: Cristina Formaini: SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+- [YouTube: SSH vs SSL vs TLS](https://www.youtube.com/watch?v=k3rFFLmQCuY)
+- [YouTube: SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo)
 
 
 ## Key Components
