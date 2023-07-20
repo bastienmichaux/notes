@@ -25,7 +25,8 @@ Computer networking is the practice of creating and administrating computer netw
   - [IP addresses](./ip-address.md)
   - [Email](./email.md)
   - [Web Protocols](./web-protocol.md): [DNS](./protocol.dns.md)
-  - [FTP](./protocol.ftp.md)
+  - [File Transfer Protocol](./protocol.ftp.md)
+  - [Network Time Protocol](./protocol.ntp.md)
   - Secure protocols: [SSH](./protocol.ssh.md), [TLS](./protocol.tls.md), [SFTP](./protocol.sftp.md)
 
 <!-- TODO: move this and SSE to back-end technologies -->
