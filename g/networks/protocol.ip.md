@@ -1,3 +1,5 @@
+[Home](../../README.md) > [Networks](./README.md) > [Protocols](./protocol.md)
+
 # IP
 
 **IP (Internet Protocol)** is a primary building block of the Internet. It assigns a unique **IP address** to each network device, enabling data packets to be sent to their correct destination.
