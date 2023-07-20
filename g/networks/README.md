@@ -34,6 +34,7 @@ Computer networking is the practice of creating and administrating computer netw
 **The Web:**
 - [The World Wide Web](./web.md)
 - [Web Protocols](./web-protocol.md)
+- [Browsers](./browser.md)
 - [WebSockets](./websocket.md)
 - [Server-Sent Events](./sse.md)
 
