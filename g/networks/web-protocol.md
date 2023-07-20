@@ -16,7 +16,7 @@ The web has its own set of protocols and technologies:
 
 # Domain Name
 
-A domain name is a unique, easy-to-remember address used to access websites, such as `google.com`. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
+A domain name is a unique, easy-to-remember address used to access websites, such as `google.com`. Users can connect to websites using domain names thanks to the **[DNS system](#dns)**.
 
 **Resources:**
 - [MDN: What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
