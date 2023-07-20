@@ -6,20 +6,23 @@ A computer network is a set of computers connected to exchange data, resources, 
 
 Computer networking is the practice of creating and administrating computer networks.
 
-**Content:**
+<!-- TODO: cognitive order (revise & link articles) -->
+**The Internet:**
 <!-- - [Connection Types](TODO) -->
 - [Fundamentals](./fundamentals.md)
 - [Networking devices](./device.md)
 - [Network types](./type.md)
 - [Network topologies](./topology.md)
 - [OSI model](./osi-model.md)
-- [Protocols](./protocol.md)
-- [Email protocols and technologies](./email.md)
-- [Web Protocols](./web-protocol.md)
+- [Internet](./internet.md)
 - [IP addresses](./ip-address.md)
+- [Internet Protocols](./protocol.md)
+- [Email](./email.md)
 
 <!-- TODO: move this and SSE to back-end technologies -->
 **The Web:**
+- [The World Wide Web](./web.md)
+- [Web Protocols](./web-protocol.md)
 - [WebSockets](./websocket.md)
 - [Server-Sent Events](./sse.md)
 

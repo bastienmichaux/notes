@@ -4,10 +4,15 @@
 
 Protocols are sets of rules and procedures that define how data should be transmitted, formatted, and processed. They govern communications between devices within a network.
 
+<!-- TODO: Internet Protocol Suite -->
+<!-- TODO: TCP/IP -->
+Most networking protocols in current use are TCP/IP based, meaning they're part of the Internet protocol suite.
+
 Regarding cyber security, understanding protocols is vital for identifying potential vulnerabilities and making informed decisions on network defense strategies.
 
 Some of the most common protocols include:
 
+<!-- TODO: order common protocols f OSI layer -->
 **Internet protocols:**
 - **[Transmission Control Protocol (TCP)](#tcp):** Fundamental standard for transmitting data and establishing connections.
 - **[Internet Protocol (IP)](#ip):** Facilitates the transmission of data packets, assigning unique IP addresses to identify devices.
@@ -16,15 +21,14 @@ Some of the most common protocols include:
 - **[Dynamic Host Configuration Protocol (DHCP)](#dhcp):**
 - **[Network Time Protocol (NTP)](#ntp):**
 - **[Transport Layer Security (TLS)](#tls):** Cryptographic control of communication. Replaced [SSL](#ssl).
+- **[User Datagram Protocol (UDP)](#udp):** Protocol often used for streaming and gaming applications. Faster and lighter than TCP, but less reliable.
 - **[SSH](#ssh):**
 
+<!-- TODO: difference between Internet and web => difference between their protocols -->
 **[Web protocols](./web-protocol.md):**
 - **[HTTP](./web-protocols.md#http):** Client-server communication on the web.
 - **[DNS](./web-protocols.md#dns):** Translates IP addresses to human-readable domain names.
 - **[HTTPS](./web-protocols.md#https):** Secured HTTP protocol built on top of TLS
-
-**Other protocols:**
-- **[User Datagram Protocol (UDP)](#udp):** Protocol often used for streaming and gaming applications. Faster and lighter than TCP, but less reliable.
 
 ## Terminology
 
@@ -54,7 +58,6 @@ Resources:
 
 **Internet Protocol (IP)** is a protocol that enables data exchange between computers over a network. Each device in the network has a unique **IP address**, enabling data packets to be sent correctly.
 
-<!-- TODO: Internet Protocol Suite -->
 IP is the primary protocol in the Internet Layer of the Internet Protocol Suite and has two main versions - IPv4 and IPv6.
 
 

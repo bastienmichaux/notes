@@ -1,8 +1,9 @@
 [Home](../../README.md) > [Networks](./README.md)
 
+<!-- TODO: it's not clear what this page contains, split the content like other protocols, then update protocols.md and README.md -->
 # Web Protocols
 
-The World Wide Web is an application that uses the Internet as an infrastructure. It has its own set of protocols:
+The web has its own set of protocols:
 - **DNS:** translates IP addresses to domain names.
 - **HTTP:** governs client-server requests and responses.
 - **HTTPS:** a more secured version of HTTP.
@@ -13,11 +14,12 @@ The World Wide Web is an application that uses the Internet as an infrastructure
 
 The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember names instead of numerical IP addresses.
 
-Domain names like `google.com` are human-readable and can be memorized. DNS translates domain names to IP addresses. This process is called domain name resolution.
+Domain names like `google.com` are unique, human-readable and can be memorized. DNS translates domain names to IP addresses. This process is called domain name resolution.
 
 **Resources:**
 - [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
 - [How DNS works (comic)](https://howdns.works/)
+- [Mozilla: Understanding Domain names](https://developer.mozilla.org/en-US/docs/Glossary/DNS/)
 - [Wikipedia: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
 - [yt: DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
 - [yt: DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
@@ -50,6 +52,7 @@ As a website owner or developer, it's crucial to prioritize implementing HTTPS, 
 - [Wikipedia: HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 - [yt: HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
 - [yt: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
+- [yt: Full HTTP Networking Course](https://www.youtube.com/watch?v=2JYT5f2isg4)
 
 
 # HTTPS
@@ -62,6 +65,16 @@ These cryptographic protocols provide end-to-end security, ensuring data integri
 
 To implement HTTPS, websites need to obtain an **SSL/TLS certificate** from a trusted **Certificate Authority (CA)**. This certificate authenticates the website's identity and helps establish a secure connection between the client and server.
 
+**Resources:**
+- [CloudFlare: What is HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+- [Google: Why HTTPS Matters](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
+- [Google: Enabling HTTPS on Your Servers](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
+- [baida.dev: HTTPS explained with carrier pigeons](https://baida.dev/articles/https-explained-with-carrier-pigeons)
+- [How HTTPS works (comic)](https://howhttps.works/)
+- [Wikipedia: HTTPS](https://en.wikipedia.org/wiki/HTTPS)
+- [yt: SSL, TLS, HTTP, HTTPS Explained](https://www.youtube.com/watch?v=hExRDVZHhig)
+- [yt: HTTPS — Stories from the field](https://www.youtube.com/watch?v=GoXgl9r0Kjk)
+
 ### How HTTPS works
 <!-- TODO: link to handshake -->
 A communication through HTTPS starts with the **handshake phase** during which the server and the client agree on how to encrypt the communication. In particular they choose an encryption algorithm and a secret key.
@@ -73,16 +86,6 @@ The handshake phase uses a particular kind of cryptography, called **asymmetric 
 
 <!-- TODO: link to crypto -->
 After the handshake phase the HTTPS communication is encrypted with **symmetric cryptography**, which is much more efficient but requires client and server to both have knowledge of the secret key.
-
-**Resources:**
-- [CloudFlare: What is HTTPS?](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
-- [Google: Why HTTPS Matters](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
-- [Google: Enabling HTTPS on Your Servers](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
-- [baida.dev: HTTPS explained with carrier pigeons](https://baida.dev/articles/https-explained-with-carrier-pigeons)
-- [How HTTPS works (comic)](https://howhttps.works/)
-- [Wikipedia: HTTPS](https://en.wikipedia.org/wiki/HTTPS)
-- [yt: SSL, TLS, HTTP, HTTPS Explained](https://www.youtube.com/watch?v=hExRDVZHhig)
-- [yt: HTTPS — Stories from the field](https://www.youtube.com/watch?v=GoXgl9r0Kjk)
 
 
 ## CORS
