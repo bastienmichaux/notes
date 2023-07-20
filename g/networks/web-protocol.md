@@ -17,11 +17,30 @@ The **Domain Name System (DNS)** is the phonebook of the Internet: it allows use
 
 ## HTTP
 
-The **HyperText Transfer Protocol (HTTP)** is the foundation of data communication on the World Wide Web. It defines how data should be formatted, requested and transmitted between a client (like your browser) and a web server.
+The **HyperText Transfer Protocol (HTTP)** is the foundation of data communication on the World Wide Web. It defines how data should be formatted, requested and transmitted between a client (like your browser) and a web server. When you visit a website, your browser sends an HTTP request to the server, which then responds with the requested data. This data is then rendered by your browser.
 
-HTTP is TCP/IP-based and an application layer protocol.
+<!-- TODO: difference between HTTP 1, 2, 3 -->
+Note that there are 3 versions of HTTP, the most recent is HTTP/3.
 
-It's a stateless protocol, meaning each request and response pair is independent from the others. When you visit a website, your browser sends an HTTP request to the server, which then responds with the requested data. This data is then rendered by your browser.
+HTTP is TCP/IP-based (like most internet protocols). It's an application (OSI layer 7).
+
+HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
+
+HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests. Each request and response pair is independent from the others.
+
+**Resources:**
+- [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
+- [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+- [Mozilla: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [How HTTPS Works (comic)](https://howhttps.works)
+- [Journey to HTTP/2](https://kamranahmed.info/blog/2016/08/13/http-in-depth)
+- [SmashingMagazine: HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+- [HTTP/3 Is Now a Standard: Why Use It and How to Get Started](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
+- [Wikipedia: HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+- [YouTube: HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
+- [YouTube: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
+- [YouTube: Full HTTP Networking Course](https://www.youtube.com/watch?v=2JYT5f2isg4)
+
 
 ### Security
 
@@ -33,18 +52,8 @@ When browsing the internet, always look for the padlock icon in the address bar,
 
 As a website owner or developer, it's crucial to prioritize implementing HTTPS, to provide a secure and trustworthy experience for your users.
 
-**Resources:**
-- [cs.fyi: Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
-- [CloudFlare: What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [Mozilla: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-- [smashingmagazine: HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
-- [Wikipedia: HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
-- [yt: HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
-- [yt: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
-- [yt: Full HTTP Networking Course](https://www.youtube.com/watch?v=2JYT5f2isg4)
 
-
-# HTTPS
+## HTTPS
 
 **HTTPS**, or HTTP Secure, is a secure version of HTTP that encrypts data between the client and server.
 
