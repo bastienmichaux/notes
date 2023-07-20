@@ -10,14 +10,23 @@ Computer networking is the practice of creating and administrating computer netw
 **The Internet:**
 <!-- - [Connection Types](TODO) -->
 - [Fundamentals](./fundamentals.md)
-- [Networking devices](./device.md)
+- [Networking devices](./device.md):
+  - [Switch](./device.switch.md)
+  - [Router](./device.router.md)
 - [Network types](./type.md)
-- [Network topologies](./topology.md)
+- [Network topologies](./topology.md):
+  - [Bus](./topology.bus.md)
+  - [Mesh](./topology.mesh.md)
+  - [Ring](./topology.ring.md)
+  - [Star](./topology.star.md)
 - [OSI model](./osi-model.md)
-- [Internet](./internet.md)
-- [IP addresses](./ip-address.md)
-- [Internet Protocols](./protocol.md)
-- [Email](./email.md)
+- [Protocols](./protocol.md):
+  - [Internet Protocol (IP)](./protocol.ip.md)
+  - [IP addresses](./ip-address.md)
+  - [Email](./email.md)
+  - [Web Protocols](./web-protocol.md)
+  - [FTP](./protocol.ftp.md)
+  - Secure protocols: [SSH](./protocol.ssh.md), [TLS](./protocol.tls.md), [SFTP](./protocol.sftp.md)
 
 <!-- TODO: move this and SSE to back-end technologies -->
 **The Web:**

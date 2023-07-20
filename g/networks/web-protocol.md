@@ -10,21 +10,10 @@ The web has its own set of protocols:
 - **CORS:** an HTTP-based security mechanism.
 
 
-## DNS
+## [DNS](./protocol.dns.md)
 
-The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember names instead of numerical IP addresses.
-
-Domain names like `google.com` are unique, human-readable and can be memorized. DNS translates domain names to IP addresses. This process is called domain name resolution.
-
-**Resources:**
-- [CloudFlare: What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
-- [How DNS works (comic)](https://howdns.works/)
-- [Mozilla: Understanding Domain names](https://developer.mozilla.org/en-US/docs/Glossary/DNS/)
-- [Wikipedia: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
-- [yt: DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-- [yt: DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
-- [yt: Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
-
+<!-- TODO: domain name -->
+The **Domain Name System (DNS)** is the phonebook of the Internet: it allows users to access websites using easy-to-remember **domain names** (such as `google.com`) instead of numerical IP addresses (like `123.456.789.1`).
 
 ## HTTP
 

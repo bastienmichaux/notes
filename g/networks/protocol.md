@@ -54,11 +54,9 @@ Resources:
 - [yt: TCP/IP and the OSI Model Explained](https://www.youtube.com/watch?v=e5DEVa9eSN0)
 - [yt: OSI vs TCP/IP Model](https://www.youtube.com/watch?v=F5rni9fr1yE)
 
-## IP
+## [IP](./protocol.ip.md)
 
-**Internet Protocol (IP)** is a protocol that enables data exchange between computers over a network. Each device in the network has a unique **IP address**, enabling data packets to be sent correctly.
-
-IP is the primary protocol in the Internet Layer of the Internet Protocol Suite and has two main versions - IPv4 and IPv6.
+**Internet Protocol (IP)** is a primary protocol that enables data exchange. It assigns to each network device a unique **IP address**, enabling data packets to be sent to their correct destination.
 
 
 ## [FTP](./protocol.ftp.md)
@@ -99,7 +97,11 @@ Note: SFTP = FTP + SSH
 ## UDP
 
 <!-- TODO: connectionless, error checking, guarantee delivery, latency -->
-UDP, or User Datagram Protocol, is a connectionless communication protocol used for fast and efficient data transmission. Unlike TCP, UDP does not provide error checking or guarantee delivery, making it suitable for real-time applications like video streaming and online gaming where low latency is crucial.
+**UDP (User Datagram Protocol)** is a connectionless communication protocol used for fast and efficient data transmission.
+
+Unlike TCP, UDP does not provide error checking or guarantee delivery: it doesn't guarantee the order or integrity of data packets. This makes it suitable for real-time applications like video streaming and online gaming where low latency is crucial.
+
+That's also why some data can be lost during a stream: you may not receive the entirety of a video stream (some milliseconds are skipped/lost) but you get enough to follow along.
 
 
 ## SSL
