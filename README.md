@@ -13,8 +13,8 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 - Cryptography
 - [Cyber Security](g/cybersec/README.md)
 - [Operating Systems](g/os/README.md)
-- Quality Assurance & Testing
-
+- [Professional Development](g/dev/README.md)
+- [Quality Assurance & Testing](g/qa/README.md)
 
 ## Languages
 
