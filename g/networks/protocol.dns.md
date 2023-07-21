@@ -80,14 +80,14 @@ Some common DNS record types include:
 **TXT (Text) Record**: Contains human-readable or machine-readable text, often used for verification, security purposes or providing additional information about a domain.
 
 
-## Threats
+## Security
 
 As an essential part of the internet, the security and integrity of the DNS infrastructure are crucial.
 
 <!-- TODO: DNS cache poisoning -->
 <!-- TODO: DDoS -->
 <!-- TODO: DNS hijacking -->
-However, it's vulnerable to various types of cyber attacks, such as:
+However, it's vulnerable to various types of cyber attacks (threats), such as:
 - DNS cache poisoning
 - Distributed Denial of Service (DDoS) attacks
 - DNS hijacking
