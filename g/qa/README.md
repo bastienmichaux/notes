@@ -4,15 +4,14 @@
 
 ## Theory
 
-- Quality Assurance
-- Tester Roles
-- Tester Mindset
-- Testing Approaches:
-  - White Box
-  - Gray Box
-  - Black Box
-- Test Oracle
-- Test Prioritization - Test Planning
+- [Quality Assurance](./qa.md)
+- [Testing](./testing.md)
+- [QA Roles](./roles.md)
+- [Mindset](./mindset.md)
+- [Approaches](./approach.md): White/Gray/Black Box Testing
+- [Prioritization](./prioritization.md)
+- [Management](./mgmt.md)
+- Planning
 - Test Case - Test Scenario
 - TDD
 - Reporting

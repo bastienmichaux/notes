@@ -4,6 +4,7 @@
 
 ## Theory
 
+- [Project Management](./mgmt.md)
 - SDLC
 - SDLC Delivery Models:
   - Waterfall
