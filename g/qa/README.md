@@ -24,29 +24,31 @@
 Testing types:
 - Manual Testing
 - Automated Testing
-- Non-Functional Testing
-- Security Testing
 
-Functional Testing:
+[Functional Testing](./testing.functional.md):
 - Email Testing
-- Exploratory Testing
-- Integration Testing
-- Regression Testing
-- Sanity Testing
-- Smoke Testing
-- Unit Testing
-- User-Acceptance Testing
+- [Exploratory Testing](./testing.exploratory.md)
+- [Integration Testing](./testing.integration.md)
+- [Regression Testing](./testing.regression.md)
+- [Sanity Testing](./testing.sanity.md)
+- [Smoke Testing](./testing.smoke.md)
+- [Unit Testing](./testing.unit.md)
+- [User-Acceptance Testing](./testing.uat.md)
 
-Non-Functional Testing:
-- Load Testing
-- Performance Testing
-- Stress Testing
-- Security Testing
-- Accessibility Testing
+[Non-Functional Testing](./testing.non-functional.md):
+- [Load Testing](./testing.load.md)
+- [Performance Testing](./testing-performance.md)
+- [Stress Testing](./testing-stress.md)
+- [Security Testing](./testing-security.md)
+- [Accessibility Testing](./testing-accessibility.md)
 
 Back-end Testing:
 - API Testing
 - Back-end Automation
+
+Front-end Testing
+
+Mobile Testing
 
 ## Tools
 
