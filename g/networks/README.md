@@ -14,6 +14,7 @@ Computer networking is the practice of creating and administrating computer netw
   - [Switch](./device.switch.md)
   - [Router](./device.router.md)
 - [Network types](./type.md)
+- [Area networks](./area.md): LAN/WLAN - WAN - MAN
 - [Network topologies](./topology.md):
   - [Bus](./topology.bus.md)
   - [Mesh](./topology.mesh.md)
