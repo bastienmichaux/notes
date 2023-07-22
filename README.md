@@ -6,12 +6,12 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 ## General notes
 
+<!-- - [Cloud Computing](g/cloud/README.md) -->
+<!-- - [Cryptography](g/crypto/README.md) -->
 - [Back-end Development](g/backend/README.md)
-- [Cloud Computing]
 - [Computer Architecture](g/comparch/README.md)
 - [Computer Networks](g/networks/README.md)
 - [Computer Science](g/cs/README.md)
-- Cryptography
 - [Cyber Security](g/cybersec/README.md)
 - [Front-end Development](g/frontend/README.md)
 - [Operating Systems](g/os/README.md)
