@@ -37,10 +37,10 @@ Testing types:
 
 [Non-Functional Testing](./testing.non-functional.md):
 - [Load Testing](./testing.load.md)
-- [Performance Testing](./testing-performance.md)
-- [Stress Testing](./testing-stress.md)
-- [Security Testing](./testing-security.md)
-- [Accessibility Testing](./testing-accessibility.md)
+- [Performance Testing](./testing.performance.md)
+- [Stress Testing](./testing.stress.md)
+- [Security Testing](./testing.security.md)
+- [Accessibility Testing](./testing.accessibility.md)
 
 Back-end Testing:
 - API Testing
