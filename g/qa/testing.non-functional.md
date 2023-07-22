@@ -2,7 +2,7 @@
 
 # Non-Functional Testing
 
-Non-functional testing tests non-functional parameters such as reliability, load test, performance, and accountability of the software.
+Non-functional testing verifies non-functional parameters such as performance, reliability, load test, security, usability, and accountability of the software. These attributes are known as quality characteristics.
 
 Non-functional testing is performed after functional testing.
 

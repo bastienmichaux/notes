@@ -12,21 +12,24 @@
 - [Prioritization](./prioritization.md)
 - [Management](./mgmt.md)
 - Planning
-- Test Case - Test Scenario
+- Test Case
+- Test Scenario
+- Test Suite
+- Requirements Verification
+- Software Validation
 - TDD
 - Reporting
 - Compatibility
 - Device Management
-- Verification - Validation
 
 ## Testing
 
 Testing types:
-- Manual Testing
-- Automated Testing
+- [Manual Testing](./testing.manual.md)
+- [Automated Testing](./testing.automated.md)
 
 [Functional Testing](./testing.functional.md):
-- Email Testing
+- [Email Testing](./email.testing.md)
 - [Exploratory Testing](./testing.exploratory.md)
 - [Integration Testing](./testing.integration.md)
 - [Regression Testing](./testing.regression.md)

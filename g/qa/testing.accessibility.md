@@ -8,3 +8,5 @@ Accessibility Testing is performed to ensure that the application being tested i
 - [guru99: What is Accessibility Testing? (Examples)](https://www.guru99.com/accessibility-testing.html)
 - [softwaretestinghelp: Accessibility Testing Tutorial (Step By Step Guide)](https://www.softwaretestinghelp.com/what-is-web-accessibility-testing/)
 - [ibm: IBM Accessibility Toolkit](https://www.ibm.com/able/)
+- [javatpoint: Accessibility testing](https://www.javatpoint.com/accessibility-testing)
+- [geeksforgeeks: Accessibility testing](https://www.geeksforgeeks.org/software-testing-accessibility-testing/)
