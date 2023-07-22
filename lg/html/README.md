@@ -6,6 +6,14 @@
 
 (CSS is used to style HTML elements and JavaScript gives them interactivity.)
 
+**Content:**
+- Basics
+- Semantic Elements
+- Forms and Validations
+- Conventions and Best Practices
+- Accessibility
+- SEO Basics
+
 **Resources:**
 - [W3Schools: Learn HTML](https://www.w3schools.com/html/html_intro.asp)
 - [Codecademy: Learn HTML](https://www.codecademy.com/learn/learn-html)

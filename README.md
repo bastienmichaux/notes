@@ -6,12 +6,14 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 ## General notes
 
-- Cloud Computing
+- [Back-end Development](g/backend/README.md)
+- [Cloud Computing]
 - [Computer Architecture](g/comparch/README.md)
 - [Computer Networks](g/networks/README.md)
 - [Computer Science](g/cs/README.md)
 - Cryptography
 - [Cyber Security](g/cybersec/README.md)
+- [Front-end Development](g/frontend/README.md)
 - [Operating Systems](g/os/README.md)
 - [Professional Development](g/dev/README.md)
 - [Quality Assurance & Testing](g/qa/README.md)
@@ -20,8 +22,10 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 - [C language](./lg/c/README.md) and [C++](./lg/cpp/README.md)
 - [C# language](./lg/csharp/README.md)
+- [CSS](./lg/css/README.md)
+- [HTML](./lg/html/README.md)
 - [Java](./lg/java/README.md)
-- JavaScript - TypeScript
+- [JavaScript](./lg/js/README.md) - [TypeScript](./lg/ts/README.md)
 - [Go](./lg/go/README.md)
 - [Python](./lg/python/README.md)
 - [Rust](./lg/rust/README.md)
