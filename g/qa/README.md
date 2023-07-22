@@ -11,16 +11,14 @@
 - [Approaches](./approach.md): White/Gray/Black Box Testing
 - [Prioritization](./prioritization.md)
 - [Management](./mgmt.md)
-- Planning
-- Test Case
-- Test Scenario
-- Test Suite
-- Requirements Verification
-- Software Validation
-- TDD
-- Reporting
-- Compatibility
-- Device Management
+- [TDD](./tdd.md)
+- [Test Plan](./planning.md)
+- [Test Case](./test-case.md)
+- [Test Scenario](./test-scenario.md)
+- [Defect Reporting](./defect-reporting.md)
+- [Requirements Verification](./verification.md)
+- [Software Validation](./validation.md)
+<!-- - Device Management -->
 
 ## Testing
 
@@ -29,6 +27,7 @@ Testing types:
 - [Automated Testing](./testing.automated.md)
 
 [Functional Testing](./testing.functional.md):
+- [Compatibility Testing](./testing.compatibility.md)
 - [Email Testing](./email.testing.md)
 - [Exploratory Testing](./testing.exploratory.md)
 - [Integration Testing](./testing.integration.md)
