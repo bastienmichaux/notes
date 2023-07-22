@@ -11,42 +11,46 @@
 - [Approaches](./approach.md): White/Gray/Black Box Testing
 - [Prioritization](./prioritization.md)
 - [Management](./mgmt.md)
-- Planning
-- Test Case - Test Scenario
-- TDD
-- Reporting
-- Compatibility
-- Device Management
-- Verification - Validation
+- [TDD](./tdd.md)
+- [Test Plan](./planning.md)
+- [Test Case](./test-case.md)
+- [Test Scenario](./test-scenario.md)
+- [Defect Reporting](./defect-reporting.md)
+- [Requirements Verification](./verification.md)
+- [Software Validation](./validation.md)
+<!-- - Device Management -->
 
 ## Testing
 
 Testing types:
-- Manual Testing
-- Automated Testing
-- Non-Functional Testing
-- Security Testing
+- [Manual Testing](./testing.manual.md)
+- [Automated Testing](./testing.automated.md)
 
-Functional Testing:
-- Email Testing
-- Exploratory Testing
-- Integration Testing
-- Regression Testing
-- Sanity Testing
-- Smoke Testing
-- Unit Testing
-- User-Acceptance Testing
+[Functional Testing](./testing.functional.md):
+- [Compatibility Testing](./testing.compatibility.md)
+- [Email Testing](./email.testing.md)
+- [Exploratory Testing](./testing.exploratory.md)
+- [Integration Testing](./testing.integration.md)
+- [Regression Testing](./testing.regression.md)
+- [Sanity Testing](./testing.sanity.md)
+- [Smoke Testing](./testing.smoke.md)
+- [Unit Testing](./testing.unit.md)
+- [User-Acceptance Testing](./testing.uat.md)
 
-Non-Functional Testing:
-- Load Testing
-- Performance Testing
-- Stress Testing
-- Security Testing
-- Accessibility Testing
+[Non-Functional Testing](./testing.non-functional.md):
+- [Load Testing](./testing.load.md)
+- [Performance Testing](./testing.performance.md)
+- [Stress Testing](./testing.stress.md)
+- [Security Testing](./testing.security.md)
+- [Accessibility Testing](./testing.accessibility.md)
 
 Back-end Testing:
 - API Testing
 - Back-end Automation
+
+Front-end Testing
+
+Mobile Testing
 
 ## Tools
 
