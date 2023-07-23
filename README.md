@@ -1,13 +1,14 @@
 # 📚 notes
 
-Personal documentation based on the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟
+Personal notes based on the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟
 
-Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
+I try to write the best doc possible by keeping my notes clear, simple, sourced, verified and accessible. This repo is beginner-friendly. Feel free to [contribute](./CONTRIBUTING.md)! 😄
 
-## General notes
 
-<!-- - [Cloud Computing](g/cloud/README.md) -->
-<!-- - [Cryptography](g/crypto/README.md) -->
+## General
+
+- [Cloud Computing](g/cloud/README.md)
+- [Cryptography](g/crypto/README.md)
 - [Back-end Development](g/backend/README.md)
 - [Computer Architecture](g/comparch/README.md)
 - [Computer Networks](g/networks/README.md)
@@ -17,6 +18,7 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 - [Operating Systems](g/os/README.md)
 - [Professional Development](g/dev/README.md)
 - [Quality Assurance & Testing](g/qa/README.md)
+
 
 ## Languages
 
@@ -36,6 +38,11 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 - Angular
 - React
+
+
+## Platforms
+
+[Windows](./pf/windows.md)
 
 
 ## Tools
