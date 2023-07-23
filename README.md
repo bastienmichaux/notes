@@ -7,7 +7,7 @@ I try to write the best doc possible by keeping my notes clear, simple, sourced,
 
 ## General
 
-- [Cloud Computing](g/cloud/README.md)
+- [Software Architecture](g/softarch/README.md)
 - [Cryptography](g/crypto/README.md)
 - [Back-end Development](g/backend/README.md)
 - [Computer Architecture](g/comparch/README.md)
@@ -51,6 +51,7 @@ I try to write the best doc possible by keeping my notes clear, simple, sourced,
 - Configuration tools: [TOML](tools/toml.md)
 - Docker
 - Documentation tools: [Markdown](tools/markdown.md)
-- Editors: [editorconfig](tools/editorconfig.md)
+- Editors: [Sublime Text](tools/sublime-text.md) - [VSCode](tools/vscode.md)
+- Formatters: [editorconfig](tools/editorconfig.md)
 - Google: [Calendar](tools/google/calendar.md) - [Chrome](tools/google/chrome.md) [Search](tools/google/search.md)
 - Kubernetes
