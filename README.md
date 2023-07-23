@@ -20,7 +20,8 @@ Work in project, feel free to [contribute](./CONTRIBUTING.md). 😄
 
 ## Languages
 
-- [C language](./lg/c/README.md) and [C++](./lg/cpp/README.md)
+- [C language](./lg/c/README.md)
+- [C++](./lg/cpp/README.md)
 - [C# language](./lg/csharp/README.md)
 - [CSS](./lg/css/README.md)
 - [HTML](./lg/html/README.md)

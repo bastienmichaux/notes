@@ -11,7 +11,7 @@
 - Semantic Elements
 - Forms and Validations
 - Conventions and Best Practices
-- Accessibility
+- [Accessibility](./accessibility.md)
 - SEO Basics
 
 **Resources:**
