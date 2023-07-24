@@ -7,18 +7,22 @@ I try to write the best doc possible by keeping my notes clear, simple, sourced,
 
 ## General
 
-- [Software Architecture](g/softarch/README.md)
-- [Cryptography](g/crypto/README.md)
-- [Back-end Development](g/backend/README.md)
+**Low-Level:**
+- [Computer Science](g/cs/README.md)
 - [Computer Architecture](g/comparch/README.md)
 - [Computer Networks](g/networks/README.md)
-- [Computer Science](g/cs/README.md)
-- [Cyber Security](g/cybersec/README.md)
-- [Front-end Development](g/frontend/README.md)
 - [Operating Systems](g/os/README.md)
-- [Professional Development](g/dev/README.md)
+
+**Enterprise Development:**
+- [Back-end Development](g/backend/README.md)
+- [Front-end Development](g/frontend/README.md)
 - [Quality Assurance & Testing](g/qa/README.md)
-- [User Experience Design](g/ux/README.md)
+- [Software Architecture](g/softarch/README.md)
+- [UX/UI Design](g/ux/README.md)
+
+**Security:**
+- [Cryptography](g/crypto/README.md)
+- [Cyber Security](g/cybersec/README.md)
 
 
 ## Languages
@@ -54,5 +58,6 @@ I try to write the best doc possible by keeping my notes clear, simple, sourced,
 - Documentation tools: [Markdown](tools/markdown.md)
 - Editors: [Sublime Text](tools/sublime-text.md) - [VSCode](tools/vscode.md)
 - Formatters: [editorconfig](tools/editorconfig.md)
+- [Git](tools/git/README.md)
 - Google: [Calendar](tools/google/calendar.md) - [Chrome](tools/google/chrome.md) [Search](tools/google/search.md)
 - Kubernetes
