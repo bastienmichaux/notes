@@ -20,9 +20,10 @@
 - Iterators
 - Generators
 - Modules
+- [Design patterns](./pattern.md)
 
 **Resources:**
-<!-- - [Visit Dedicated JavaScript Roadmap](/javascript) -->
+- [Visit Dedicated JavaScript Roadmap](https://roadmap.sh/javascript)
 - [Eloquent JavaScript textbook](https://eloquentjavascript.net/)
 - [Exploring JS: JavaScript books for programmers](https://exploringjs.com/)
 - [github: You Dont Know JS Yet (book series) ](https://github.com/getify/You-Dont-Know-JS)

@@ -7,14 +7,15 @@ Talk only to your friends?
 
 **Don't Repeat Yourself (DRY)** recommends to avoid writing similar code in different places. Otherwise, future maintenance will be difficult: you have to make changes to the code in those various places. Which means more time, effort, and money.
 
-To avoid this, extract common logic into functions. Use generics to further reduce quasi-similar code.
+To avoid this, extract common logic into functions. Use generics to further re-use similar logic with different types.
 
-Additionally, if there are any manual works that you can automate, do so to keep your code lean.
+Additionally, if there are any manual work that you can automate, do so to keep your code lean.
 
 
 ## KISS
 
 **Keep It Simple Stupid (KISS)** means keeping the code simple and clear to understand. Other humans should be able to understand it easily, whether they're juniors or seniors.
+
 
 ## YAGNI
 
@@ -22,6 +23,7 @@ Additionally, if there are any manual works that you can automate, do so to keep
 
 
 ## Least Astonishment
+
 The principle of least astonishment recommends designing features as other users (fellow developers or end-users) would expect them.
 
 This means that software behavior should be obvious, predictable and consistent. Otherwise, users will shy from using features or structures that astonish, surprise, or confuse them.
@@ -59,7 +61,7 @@ What it recommends:
 - Put related classes in the same package, module or directory (cohesion).
 
 
-## Measure Twice and Cut Once
+## Measure Twice Cut Once
 
 The requirements stage introduces a lot of coding issues if not done well. To avoid it, measure twice, cut once: be prepared by developing a systematic approach to the coding process.
 

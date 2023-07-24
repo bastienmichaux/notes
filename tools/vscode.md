@@ -1,4 +1,25 @@
+[Home](../README.md)
+
 # Visual Studio Code
+
+## Shortcuts
+
+Settings:
+- open settings: `ctrl + ,`
+- open `settings.json`: `ctrl + shift + p`
+
+## Tips
+
+### Whitespace characters
+
+1. Press `ctrl + shift + p` to open `settings.json`
+1. Search for `editor.renderWhitespace`
+1. Use one of the 4 `values`:
+  - display `all` chars
+  - display `none`
+  - `boundary`: display all except spaces between words
+  - `selection`: selected text only
+  - `trailing`: end of line chars only
 
 ## Resources
 

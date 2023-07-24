@@ -2,17 +2,20 @@
 
 # HTML
 
-**HyperText Markup Language (HTML)** is a declarative language that structure the content of webpages. 
+**HyperText Markup Language (HTML)** is a declarative language that structure the content of webpages. It was created along with the Web by Tim Berners-Lee starting in 1991. 
 
 (CSS is used to style HTML elements and JavaScript gives them interactivity.)
 
 **Content:**
-- Basics
+- [Basics](./basics.md)
 - Semantic Elements
 - Forms and Validations
 - Conventions and Best Practices
-- Accessibility
+- [Accessibility](./accessibility.md)
 - SEO Basics
+
+**Advanced:**
+- [doctype](./DOCTYPE.md)
 
 **Resources:**
 - [W3Schools: Learn HTML](https://www.w3schools.com/html/html_intro.asp)
