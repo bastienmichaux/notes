@@ -2,7 +2,7 @@
 
 Personal notes based on the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟
 
-I try to write the best doc possible by keeping my notes clear, simple, sourced, verified and accessible. This repo is beginner-friendly. Feel free to [contribute](./CONTRIBUTING.md)! 😄
+I try to write the best doc possible by keeping my notes simple and sourced. This repo is beginner-friendly, feel free to [contribute](./CONTRIBUTING.md)! 😄
 
 
 ## General

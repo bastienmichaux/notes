@@ -1,3 +1,5 @@
+[Home](../../README.md) > [HTML](./README.md)
+
 # Basics
 
 HTML essentials in 200 lines.
@@ -17,12 +19,14 @@ Template for any page (not indented):
 ```
 
 Template explained:
-- the `doctype` tells the browser that this is an HTML5 page.
-- the `html` element contains the document (made of children HTML elements).
-- the `lang` attribute indicates the language of the page (English) as an [ISO 639-1 code (wikipedia)](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
-- the `head` element contains meta-data:
-  - the `charset` meta element indicates the character set for rendering characters.
-  - the `viewport` meta element is for correctly rendering the page on any display.
-  - the `http-equiv` meta element prevents compability issues with Microsoft Internet Explorer.
-  - the `title` is used by search engines and displayed in the browser tab.
-- the `body` element contains the page's actual content.
+1. The `doctype` tells the browser that this is an HTML5 page.
+1. The `html` element contains the document (made of children HTML elements). The `lang` attribute indicates the language of the page (English) as an [ISO 639-1 code (wikipedia)](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+1. The `head` element contains meta-data:
+  1. the `charset` meta element indicates the character set for rendering characters.
+  1. the `viewport` meta element is for correctly rendering the page on any display.
+  1. the `http-equiv` meta element prevents compability issues with Microsoft Internet Explorer (optional).
+  1. the `title` is used by search engines and displayed in the browser tab.
+1. the `body` element contains the page's actual content.
+
+**Note:**
+- The `viewport` and `charset` meta tags must come first to consistently ensure proper document rendering. Any other head element should come after these tags.
