@@ -11,7 +11,6 @@ I try to write the best doc possible by keeping my notes clear, simple, sourced,
 - [Computer Science](g/cs/README.md)
 - [Computer Architecture](g/comparch/README.md)
 - [Computer Networks](g/networks/README.md)
-- [Operating Systems](g/os/README.md)
 
 **Enterprise Development:**
 - [Back-end Development](g/backend/README.md)
