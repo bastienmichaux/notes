@@ -7,15 +7,20 @@
 **Content:**
 - [Basics](./basics.md)
 - [Box Model](./box-model.md)
-- [Making Layouts](./layout.md)
+- [Layouts](./layout.md)
 - Positioning
-- Display
+- [Display](./display.md)
 - Flex Box
 - CSS Grid
 - [Responsive Design](./responsive-design.md)
 - Media Queries
 - Styled Component
 - CSS Module
+
+**How to:**
+- [Style text](howto.style-text.md)
+- [Style links](howto.style-link.md)
+- [Style lists](howto.style-list.md)
 
 **Resources:**
 <!-- - [The Odin Project (full web dev course)](https://www.theodinproject.com//) -->

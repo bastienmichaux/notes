@@ -2,6 +2,7 @@
 
 # How Computers Work
 
+<!-- TODO: simplify section and introduce elements after -->
 <!-- TODO: boot up -->
 <!-- TODO: OS loading -->
 <!-- TODO: enabling peripherals -->
@@ -27,3 +28,19 @@ Finally, the graphical user interface (GUI) or command-line interface (CLI) of t
 
 **Resources:**
 - [YouTube: How a computer works](https://www.youtube.com/watch?v=5f3NJnvnk7k)
+
+## Boot
+
+Aka boot-up: process happening when computer is turned on.
+
+Checks all the computer parts work properly and that the operating system is loaded.
+
+Term comes from the expression "lifting yourself by your bootstraps".
+
+Dual-boot: installing another OS on a device (eg Linux on Windows). User chooses during boot which OS should run.
+
+## BIOS
+
+Software code built into the computer that handles sending data from one part of the computer to another. It's written by the manufacturer on ROM (read-only memory).
+
+## UEFI
