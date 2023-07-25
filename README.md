@@ -42,7 +42,7 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 
 ## Operating Systems
 
-[Windows](./os/windows.md)
+[Windows](./os/windows/README.md)
 
 
 ## Tooling
