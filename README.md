@@ -1,13 +1,15 @@
 # 📚 notes
 
-Personal notes based on the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟
+My personal notes, edited and organized according to reliables sources, including (but not limited to) the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟
 
-I try to write the best doc possible by keeping my notes simple and sourced. This repo is beginner-friendly, feel free to [contribute](./CONTRIBUTING.md)! 😄
+This project is still in its infancy, I'll tag it when I believe it's worth sharing.
+
+Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are welcome! 😄
 
 
 ## General
 
-**Low-Level:**
+**Fundamental:**
 - [Computer Science](g/cs/README.md)
 - [Computer Architecture](g/comparch/README.md)
 - [Computer Networks](g/networks/README.md)
@@ -38,25 +40,24 @@ I try to write the best doc possible by keeping my notes simple and sourced. Thi
 - [Rust](./lg/rust/README.md)
 
 
-## Frameworks
+## Operating Systems
 
-- Angular
-- React
-
-
-## Platforms
-
-[Windows](./pf/windows.md)
+[Windows](./os/windows.md)
 
 
-## Tools
+## Tooling
 
-- Bash
-- Configuration tools: [TOML](tools/toml.md)
-- Docker
-- Documentation tools: [Markdown](tools/markdown.md)
-- Editors: [Sublime Text](tools/sublime-text.md) - [VSCode](tools/vscode.md)
-- Formatters: [editorconfig](tools/editorconfig.md)
-- [Git](tools/git/README.md)
-- Google: [Calendar](tools/google/calendar.md) - [Chrome](tools/google/chrome.md) [Search](tools/google/search.md)
-- Kubernetes
+**Guides:**
+- [Virtualization](./tool/virtualization.md)
+
+**Tools:**
+- [Git](tool/git/README.md)
+- Configuration tools: [TOML](tool/toml.md)
+- Documentation tools: [Markdown](tool/markdown.md)
+- Editors: [Sublime Text](tool/sublime-text.md) - [VSCode](tool/vscode.md)
+- Formatters: [editorconfig](tool/editorconfig.md)
+- Google: [Calendar](tool/google.calendar.md) - [Chrome](tool/google.chrome.md) [Search](tool/google.search.md)
+- Scripting:
+  - Linux: [Shell](./tool/cmd.md) - Bash
+  - Windows: cmd - [Powershell](./tool/powershell.md)
+<!-- - Containerization: Docker - Kubernetes -->
