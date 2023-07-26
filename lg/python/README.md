@@ -4,6 +4,12 @@
 
 Python is a beginner-friendly programming language. It's often used in sciences, notably Machine Learning and AI. It's a dynamically typed, interpreted language: code is executed as soon as it is written and types are chosen by the interpreter.
 
+**Content:**
+- [Install](./install.md)
+- [Types](./type.md)
+- [Lambdas](./lambda.md)
+- [Import](./import.md)
+
 **References:**
 - [roadmap.sh: Python Roadmap](https://roadmap.sh/python)
 - [Python Website](https://www.python.org/)

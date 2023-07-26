@@ -15,6 +15,9 @@ Git was initiated by Linus Torvalds in 2005 for developing the Linux kernel. Sin
 - Branch
 - Merge
 
+**Conventions:**
+- [Semantic versioning](./semver.md).
+
 **Repo Hosting Services:**
 - GitHub
 - GitLab

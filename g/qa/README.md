@@ -15,7 +15,8 @@
 - [Test Plan](./planning.md)
 - [Test Case](./test-case.md)
 - [Test Scenario](./test-scenario.md)
-- [Defect Reporting](./defect-reporting.md)
+- [Bug Reporting](./bug-reporting.md)
+- [Test Session](./test-session.md)
 - [Requirements Verification](./verification.md)
 - [Software Validation](./validation.md)
 <!-- - Device Management -->

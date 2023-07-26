@@ -8,7 +8,21 @@ Settings:
 - open settings: `ctrl + ,`
 - open `settings.json`: `ctrl + shift + p`
 
+Editing:
+- go to end of line: `end`
+- jump from word to word: `ctrl + left/right`
+
+Open terminal: `ctrl + shift + ~` (`ctrl + ù` on some keyboards)
+
 ## Tips
+
+### Run File
+
+Press `F5` and choose a runner to run a file in VSCode. Useful for testing snippets.
+
+### Default Terminal
+
+Open settings (`ctrl + shift + p`) then type "select default profile". The drop-down includes every shell installed.
 
 ### Whitespace characters
 
@@ -20,6 +34,12 @@ Settings:
   - `boundary`: display all except spaces between words
   - `selection`: selected text only
   - `trailing`: end of line chars only
+
+### Lorem Ipsum
+
+VSCode is shipped with Emmett, which can generate Lorem Ipsum (dummy) text.
+
+In a HTML file, simply type `lorem`. Type `lorem42` to generate 42 words of dummy text.
 
 ## Resources
 

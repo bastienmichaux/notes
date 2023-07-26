@@ -8,14 +8,33 @@
 
 **Content:**
 - [Basics](./basics.md)
+- [Page Structure](./structure.md)
 - Semantic Elements
-- Forms and Validations
-- Conventions and Best Practices
+- [Text](./text.md)
+- [Anchors (hyperlinks)](./anchor.md)
+- [List](./list.md)
+- [Forms](./form.md)
+- Form validation
 - [Accessibility](./accessibility.md)
+- [Tables](./table.md)
 - SEO Basics
+- [Images](./image.md)
+- [Audio](./audio.md)
+- [Videos](./video.md)
 
 **Advanced:**
 - [doctype](./DOCTYPE.md)
+<!--
+TODO later:
+geolocation
+drag/drop
+web storage
+web workers
+sse?
+canvas
+svg
+tabindex
+-->
 
 **Resources:**
 - [W3Schools: Learn HTML](https://www.w3schools.com/html/html_intro.asp)

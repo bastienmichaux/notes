@@ -27,6 +27,3 @@ Template explained:
   1. the `http-equiv` meta element prevents compability issues with Microsoft Internet Explorer (optional).
   1. the `title` is used by search engines and displayed in the browser tab.
 1. the `body` element contains the page's actual content.
-
-**Note:**
-- The `viewport` and `charset` meta tags must come first to consistently ensure proper document rendering. Any other head element should come after these tags.

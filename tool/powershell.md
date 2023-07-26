@@ -1,6 +1,9 @@
 # PowerShell
 
 ```powershell
+# display path
+echo $env:Path
+
 # display help for command called Get-Process
 Get-Help -Name Get-Process
 

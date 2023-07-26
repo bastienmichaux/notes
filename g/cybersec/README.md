@@ -2,6 +2,4 @@
 
 # CyberSecurity
 
-Pre-requirements:
-- [Computer hardware components](../comparch/comparch.hardware.md)
-- [OSI model](../networks/osi-model.md)
+- [`security.txt`](security.txt.md)
