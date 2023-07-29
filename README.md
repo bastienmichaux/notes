@@ -45,8 +45,9 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 
 ## Operating Systems
 
-[Windows](./os/windows/README.md)
-
+[Windows](./os/windows/README.md):
+- [cmd](./tool/cmd.md)
+- [Powershell](./tool/powershell.md)
 
 ## Tooling
 
@@ -56,11 +57,10 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 **Tools:**
 - [Git](tool/git/README.md)
 - Configuration tools: [TOML](tool/toml.md)
+- Containerization: Docker - Kubernetes
 - Documentation tools: [Markdown](tool/markdown.md)
 - Editors: [Sublime Text](tool/sublime-text.md) - [VSCode](tool/vscode.md)
 - Formatters: [editorconfig](tool/editorconfig.md)
 - Google: [Calendar](tool/google.calendar.md) - [Chrome](tool/google.chrome.md) [Search](tool/google.search.md)
 - Scripting:
-  - Linux: [Shell](./tool/cmd.md) - Bash
-  - Windows: cmd - [Powershell](./tool/powershell.md)
-<!-- - Containerization: Docker - Kubernetes -->
+  - Unix/Linux: Shell - Bash
