@@ -2,7 +2,7 @@
 
 # Tries
 
-Tries are data structures used to store strings. Characters are stored in a tree-like structure, where each node of the tree represents a single character. It that allows to quickly search for strings with a common prefix.
+Tries are data structures used to store strings. Characters are stored in a tree-like structure, where each node of the tree represents a single character. Tries allow quick searches for strings with a common prefix (the beginning of a string).
 
 **Resources:**
 - [Yale: Tries - DataStructure Notes](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
