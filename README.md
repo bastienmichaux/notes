@@ -9,12 +9,13 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 
 ## General
 
-**Fundamental:**
+**Fundamentals:**
 - [Mathematics for Programmers](g/math/README.md)
 - [Computer Science](g/cs/README.md)
 - [Computer Architecture](g/comparch/README.md)
 - [Operating Systems](g/os/README.md)
 - [Computer Networks](g/networks/README.md)
+- [Databases](g/db/README.md)
 
 **Enterprise Development:**
 - [Back-end Development](g/backend/README.md)
