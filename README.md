@@ -10,6 +10,7 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 ## General
 
 **Fundamental:**
+- [Mathematics for Programmers](g/math/README.md)
 - [Computer Science](g/cs/README.md)
 - [Computer Architecture](g/comparch/README.md)
 - [Operating Systems](g/os/README.md)
