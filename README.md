@@ -12,6 +12,7 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 **Fundamental:**
 - [Computer Science](g/cs/README.md)
 - [Computer Architecture](g/comparch/README.md)
+- [Operating Systems](g/os/README.md)
 - [Computer Networks](g/networks/README.md)
 
 **Enterprise Development:**
