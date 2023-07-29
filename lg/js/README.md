@@ -14,6 +14,7 @@
 - Arrays
 - Keyed Collections
 - Exception Handling
+- [Regular Expressions](./regex.md)
 - Classes
 - Asynchronous JS
 - Fetch

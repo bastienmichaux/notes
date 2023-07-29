@@ -16,10 +16,15 @@
 - [Test Case](./test-case.md)
 - [Test Scenario](./test-scenario.md)
 - [Bug Reporting](./bug-reporting.md)
-- [Test Session](./test-session.md)
 - [Requirements Verification](./verification.md)
 - [Software Validation](./validation.md)
+<!-- - [Test Session](./test-session.md) -->
 <!-- - Device Management -->
+
+Patterns:
+- POM (Page-Object Model)
+- [Test Doubles](./test-double.md)
+
 
 ## Testing
 
@@ -45,13 +50,13 @@ Testing types:
 - [Security Testing](./testing.security.md)
 - [Accessibility Testing](./testing.accessibility.md)
 
-Back-end Testing:
-- API Testing
+Applied Testing:
+- Back-end Testing
 - Back-end Automation
+- API Testing
+- Front-end Testing
+- Mobile Testing
 
-Front-end Testing
-
-Mobile Testing
 
 ## Tools
 

@@ -15,6 +15,9 @@ npx pkg
 # run a GitHub repo or gist
 npx my/url
 
+# start a simple local web server
+npx http-server # http://localhost:8080
+
 # run a package with a distribution tag
 # (useful for testing experimental builds)
 npx create-react-app@next-sandbox

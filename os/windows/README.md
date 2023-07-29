@@ -2,7 +2,14 @@
 
 # Windows
 
-[Desktop apps](./desktop-app.md)
+Windows architecture:
+- Common Language Infrastructure
+- Common Language Runtime
+
+Development:
+- .NET Framework
+- ASP .NET Core
+- [Desktop apps](./desktop-app.md)
 
 Productivity:
 - [God Mode](./god-mode.md)
