@@ -29,6 +29,7 @@ Here are some common algorithms that you should know:
 - Substring Search
 - Suffix arrays
 - Dynamic programming
+- [Scheduling algorithms](./algo.scheduling.md)
 
 <!-- 
 ## Sorting Algorithms

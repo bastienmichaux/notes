@@ -8,7 +8,7 @@ To understand Computer Science concepts, it's advised to program in C++ or C, si
 
 **Contents:**
 - [Representing data](./data.md)
-- [Algorithms](./algorithm.md)
+- [Algorithms](./algo.md)
 - [Asymptotic notation](./asymptotic-notation.md)
 - [Data structures](./ds.md):
   - [Tree](./tree.md)
