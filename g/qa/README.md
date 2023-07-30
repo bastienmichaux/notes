@@ -18,8 +18,9 @@
 - [Bug Reporting](./bug-reporting.md)
 - [Requirements Verification](./verification.md)
 - [Software Validation](./validation.md)
+<!-- - [Test Strategy](./strategy.md) -->
 <!-- - [Test Session](./test-session.md) -->
-<!-- - Device Management -->
+<!-- - Test Devices -->
 
 Patterns:
 - POM (Page-Object Model)
