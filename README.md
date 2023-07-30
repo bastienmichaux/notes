@@ -39,6 +39,7 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 - [Go](./lg/go/README.md)
 - [Python](./lg/python/README.md)
 - [Rust](./lg/rust/README.md)
+- [SQL](./lg/sql/README.md)
 
 ## Operating Systems
 

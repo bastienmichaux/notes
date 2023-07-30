@@ -2,7 +2,7 @@
 
 # cmd
 
-cmd is Windows' integrated terminal. Knowing it allows you to operate on any Windows version.
+`cmd` is Windows' integrated terminal. Knowing it allows you to operate on any Windows version.
 
 You may need administrator privileges to run it.
 
@@ -38,3 +38,6 @@ win         : startx
 : print PATH environment variable
 echo %PATH%
 ```
+
+**Resources:**
+- https://www.makeuseof.com/tag/15-cmd-commands-every-windows-user-know/
