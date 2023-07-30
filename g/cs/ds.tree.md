@@ -1,12 +1,14 @@
 [Home](../../README.md) > [Computer Science](./README.md)
 
-# Computer Science: Tree
+# Tree
 
 A tree is a hierarchical, non-linear [data structure](./ds.md) made of nodes. A "parent" node points to "children" nodes. 
 
-A **node** is just another name for a data structure element. The name comes from real-life nets (such as fishing nets), which are made of connected elements (fibers). A network is a set of connected nodes.
-
 A tree can be divided in several **subtrees**.
+
+A well-known tree structure is HTML pages: the top-most node is the `<html>` element, the `<head>` and `<body>` elements are its direct children nodes.
+
+More on trees on our [dedicated page](./tree.md).
 
 There are several kinds of tree data structures, they differ in the constraints they follow:
 - [binary tree](#binary-tree)
@@ -15,6 +17,10 @@ There are several kinds of tree data structures, they differ in the constraints 
 - [complete binary tree](#complete-binary-tree)
 - [balanced tree](#balanced-tree)
 - [unbalanced tree](#unbalanced-tree)
+
+**Resources:**
+- [Tree Data Structure - Geeks for Geeks](https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/)
+- [Tree | Illustrated Data Structures (youtube)](https://www.youtube.com/watch?v=S2W3SXGPVyU)
 
 
 ## Binary Tree
