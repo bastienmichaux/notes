@@ -38,3 +38,7 @@ As routers are a critical gateway between your network and the Internet, it's es
 - **Disabling remote management:** Some routers have a feature that allows remote access, which can be exploited by hackers. If you don't need this feature, disable it.
 
 - **Creating a guest network:** If your router supports it, create a separate network for guests to use. This isolates them from your primary network, ensuring that they cannot access your devices or data.
+
+## Administration
+
+`192.168.1.1` is a private IP address used to login the admin panel of a router. It is pre-specified by the router companies as the default gateway address and can be used to make different changes to the router’s settings.

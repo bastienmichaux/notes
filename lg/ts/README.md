@@ -1,3 +1,5 @@
+[Home](../../README.md)
+
 # TypeScript
 
 **Content:**
@@ -30,3 +32,7 @@
 **Tools:**
 - tsc
 - ts-node
+
+**References:**
+- [Official website](https://www.typescriptlang.org/)
+- https://github.com/gibbok/typescript-book

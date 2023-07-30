@@ -1,12 +1,14 @@
 [Home](../../README.md) > [Computer Science](./README.md)
 
-# Computer Science: Graph
+# Graph
 
 A graph is a non-linear [data structure](./ds.md) made up of a finite number of nodes (or vertices) and the edges that connect them.
 
-Graphs are also called networks, since they're used to model real-life networks.
+We can think of graphs as polygons: a cube is a polygon made of 8 vertices (the nodes) linked by 12 edges.
 
-A node that has no edge is a disconnected node.
+A node that has no edge is a **disconnected** node.
+
+Graphs are also called networks, since they're useful to represent networks: telephone networks, circuit networks, social networks, etc.
 
 There are several different graph data structures:
 - [directed graph](#directed-graph)
@@ -15,6 +17,18 @@ There are several different graph data structures:
 - [representing graphs](#representing-graphs):
   - [adjacency matrix](#adjacency-matrix)
   - [adjacency list](#adjacency-list)
+
+
+**Resources:**
+- [Graph Data Structure](https://www.simplilearn.com/tutorials/data-structure-tutorial/graphs-in-data-structure)
+- [Graph Data Structure | Illustrated Data Structures (youtube)](https://www.youtube.com/watch?v=0sQE8zKhad0)
+- [CSE373 2020 - Lecture 10 - Graph Data Structures (yt)](https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10)
+- [CSE373 2020 - Lecture 11 - Graph Traversal (yt)](https://www.youtube.com/watch?v=ZTwjXj81NVY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=11)
+- [CSE373 2020 - Lecture 12 - Depth First Search (yt)](https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12)
+- [CSE373 2020 - Lecture 13 - Minimum Spanning Trees (yt)](https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13)
+- [CSE373 2020 - Lecture 14 - Minimum Spanning Trees (cont) (yt)](https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14)
+- [CSE373 2020 - Lecture 15 - Graph Algorithms (cont 2) (yt)](https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15)
+- [6.006 Single-Source Shortest Paths Problem (yt)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
 
 ## Directed Graph

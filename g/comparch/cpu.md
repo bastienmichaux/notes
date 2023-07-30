@@ -155,3 +155,12 @@ See:
 <!-- TODO: integrated circuit -->
 
 A microprocessor is an entire processor constructed as an integrated circuit on one single silicon chip (very large electrical circuit). Most computers today are microprocessor-based computer systems, or micro-computers.
+
+## CPU Interrupts
+
+CPU Interrupts are a way for the CPU to communicate with the rest of the computer.
+
+For example, if the CPU is running a program and it needs to read from the keyboard, it sends an interrupt to the keyboard, telling it to send data to the CPU. The CPU then waits for the keyboard to send data before continuing to run the program.
+
+**Resource:**
+- [Video on Interrupts](https://youtu.be/iKlAWIKEyuw)

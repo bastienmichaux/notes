@@ -10,7 +10,8 @@ Git was initiated by Linus Torvalds in 2005 for developing the Linux kernel. Sin
 
 <!-- TODO: guidelines (eg commit message max 50ch) -->
 **Commands:**
-- Initialization & Configuration
+- Initialization
+- [Configuration](./config.md)
 - Commit
 - Branch
 - Merge

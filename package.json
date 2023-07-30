@@ -1,0 +1,15 @@
+{
+  "name": "notes",
+  "version": "0.1.0",
+  "description": "My personal notes, edited and organized according to reliables sources, including (but not limited to) the [most starred github repos](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories). 🌟",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Bastien Michaux Bellomo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
