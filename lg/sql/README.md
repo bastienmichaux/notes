@@ -25,6 +25,16 @@ Techniques:
 - [Stored procedure](./stored-procedure.md)
 - Index
 - View
+<!-- - `CREATE INDEX`: create an index (search key)
+- `DROP INDEX`: delete an index -->
+
+Database design:
+- `CREATE DATABASE`: create a new database
+- `ALTER DATABASE`: modify a database
+- `CREATE TABLE`: create a new table
+- `ALTER TABLE`: modify a table
+- `DROP TABLE`: delete a table
+
 
 **Resources:**
 - [W3Schools: SQL Tutorial](https://www.w3schools.com/sql/default.asp)
