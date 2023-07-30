@@ -6,7 +6,6 @@ This project is still in its infancy, I'll tag it when I believe it's worth shar
 
 Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are welcome! 😄
 
-
 ## General
 
 **Fundamentals:**
@@ -28,7 +27,6 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 - [Cryptography](g/crypto/README.md)
 - [Cyber Security](g/cybersec/README.md)
 
-
 ## Languages
 
 - [C language](./lg/c/README.md)
@@ -41,7 +39,6 @@ Spotted something to improve or clarify? [Contributions](./CONTRIBUTING.md) are 
 - [Go](./lg/go/README.md)
 - [Python](./lg/python/README.md)
 - [Rust](./lg/rust/README.md)
-
 
 ## Operating Systems
 
