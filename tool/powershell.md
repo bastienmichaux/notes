@@ -1,11 +1,28 @@
+[Home](../README.md)
+
 # PowerShell
 
+**PowerShell** is a command-line shell and scripting language designed for Windows system administration. Its ancestor is **cmd**.
+
+**cmdlets** are PowerShell commands.
+
+PowerShell comes with an **Integrated Scripting Environment (ISE)** to run, debug and test scripts.
+
+**Resources:**
+- [TutorialsPoint](https://www.tutorialspoint.com/powershell/index.htm)
+- [Microsoft: PowerShell learning path](https://learn.microsoft.com/en-us/training/paths/powershell/)
+
+## Basic commands
+
 ```powershell
-# display path
-echo $env:Path
+# basic documentation
+Get-Help
 
 # display help for command called Get-Process
 Get-Help -Name Get-Process
+
+# display path
+echo $env:Path
 
 # list the name of each service along with its status
 Get-Service
