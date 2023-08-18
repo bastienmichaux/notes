@@ -21,6 +21,7 @@
 <!-- - [Test Strategy](./strategy.md) -->
 <!-- - [Test Session](./test-session.md) -->
 <!-- - Test Devices -->
+<!-- - [Testing Metrics](./testing-metrics) -->
 
 Patterns:
 - POM (Page-Object Model)
