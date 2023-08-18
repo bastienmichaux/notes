@@ -59,9 +59,23 @@ do {
 } while($counter -lt $array.length)
 ```
 
-## Tests
+## Operators
+
 ```ps
+# arithmetic operators
+A -eq B  # A == B
+A -ne B  # A != B
+A -gt B  # A > B
+A -ge B  # A >= B
+A -lt B  # A < B
+A -le B  # A <= B
+
+# logical operators
+A -AND B
+A -OR B
+-NOT A
 ```
+
 
 ## Conditions
 ```ps
@@ -70,6 +84,7 @@ if($x -le 20) {
   write-host("10 < 20")
 }
 ```
+
 
 ## Files
 
@@ -98,7 +113,7 @@ Remove-Item 'Path' -Recurse
 Move-Item D:\foo D:\bar
 
 # rename (sucks!)
-Rename-Item "D:\temp\Test Test1"
+Rename-Item "D:\temp\OldName NewName"
 ```
 
 File details
@@ -109,3 +124,25 @@ Get-Content D:\temp\my.file
 # get file size
 (Get-Content D:\temp\my.file).length
 ```
+
+## Array
+
+Array unique:
+```ps
+$duplicates = 1,2,2,3
+$noduplicates = $duplicates | sort | get-unique
+```
+
+## Pipe
+
+We can compose more complex scripts by piping data between cmdlets.
+
+Basic example:
+```ps
+# redirect output of "dir"
+# to file named "test.log"
+dir > test.log
+```
+
+Useful cmdlets:
+- ForEach-Object
