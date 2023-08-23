@@ -1,11 +1,17 @@
 # PowerShell
 
+PowerShell, like Windows, is case-insensitive.
+
 ```powershell
 # display path
 echo $env:Path
 
+# display username
+echo $env:USERNAME
+
 # display help for command called Get-Process
 Get-Help -Name Get-Process
+get-help -examples
 
 # list the name of each service along with its status
 Get-Service
