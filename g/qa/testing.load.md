@@ -13,3 +13,4 @@ Example of a load test: on an online shop, the cart checkout response time is le
 **Resources:**
 - [geeksforgeeks: Software Testing: Load Testing](https://www.geeksforgeeks.org/software-testing-load-testing/)
 - [loadninja: Load testing and Best Practices](https://loadninja.com/load-testing/)
+- [K6: load test types](https://k6.io/docs/test-types/load-test-types/)

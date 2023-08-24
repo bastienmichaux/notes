@@ -2,6 +2,13 @@
 
 # Mathematics for Programmers
 
+## Statistics
+
+Resources:
+- [How to calculate risk](https://bestpractice.bmj.com/info/toolkit/learn-ebm/how-to-calculate-risk/)
+
+## Probability
+
 **Probability** is the study of how likely an event is to occur. It is a measure of how certain we are that an event will happen.
 
 **Resources:**
@@ -14,6 +21,8 @@
 - [YouTube: MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
 - [YouTube: MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
 
+
+## Combinatorics
 
 **Combinatorics** is the study of counting the number of possible outcomes for a given problem. For example, if you have a set of 10 objects, in how many different ways can you arrange them? This is a combinatorial problem.
 
