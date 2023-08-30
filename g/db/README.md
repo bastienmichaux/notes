@@ -4,7 +4,10 @@
 
 A **database** is a collection of structured data.
 
-A **DBMS (database management system)** is a software designed to assist in maintaining and extracting structured data.
+Some jargon:
+- **DBMS (database management system):** a software designed to assist in maintaining and extracting structured data.
+- **Database schema:** a "blueprint" which describes how the data may relate to other tables (or other data models). However, the schema does not actually contain data.
+- **Database instance:** sample of data from a database at a single moment in time is known as a .
 
 **Fundamentals:**
 - What is a database
